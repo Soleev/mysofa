@@ -13,11 +13,7 @@
     <meta name="description" content="@yield('description')">
     <!-- Canonical URL -->
     <link rel="canonical" href="@yield('canonical', url()->current())">
-    <!-- Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700%7CDroid+Serif:400,700"
-          rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link href="{{ asset('/assets/plugins/fontawesome-free-6.6.0-web/css/all.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/exist-font/style.css">
     <!-- CSS Library-->
     <link rel="stylesheet" href="assets/plugins/bootstrap/dist/css/bootstrap.min.css">
@@ -134,12 +130,10 @@
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
                 <ul class="ps-footer__social">
-                    <li><a href="https://www.facebook.com/Mysofa.uz/" target="_blank"><i
-                                    class="fa fa-facebook"></i>facebook</a></li>
-                    <li><a href="https://t.me/mysofa_uz" target="_blank"><i class="fa fa-telegram"></i>telegram</a>
+                    <li><a href="https://www.facebook.com/Mysofa.uz/" target="_blank"><i class="fa-brands fa-facebook"></i>facebook</a></li>
+                    <li><a href="https://t.me/mysofa_uz" target="_blank"><i class="fa-brands fa-telegram"></i>telegram</a>
                     </li>
-                    <li><a href="https://www.instagram.com/my_sofa.uz/" target="_blank"><i
-                                    class="fa fa-instagram"></i>instagram</a></li>
+                    <li><a href="https://www.instagram.com/my_sofa.uz/" target="_blank"><i class="fa-brands fa-instagram"></i>instagram</a></li>
                 </ul>
             </div>
         </div>
