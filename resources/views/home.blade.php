@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Компания по производству мягкой мебели премиум сегмента по вашим индивидуальным проектам')
+@section('description', 'MySofa - лучший выбор для вашего интерьера.')
 @section('content')
     <div class="ps-container-fluid">
         <div id="rev_slider_5_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="home-3"

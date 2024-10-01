@@ -1,8 +1,7 @@
 @extends('layouts.app')
-@section('content')
 @section('title', 'Контакты - MySofa')
 @section('description', 'Свяжитесь с нами для получения дополнительной информации о продукции MySofa.')
-
+@section('content')
     <div class="ps-contact">
         <div class="ps-contact__left">
             <iframe
@@ -15,7 +14,8 @@
         <div class="ps-contact__right" data-mh="contact-1">
             <div class="ps-contact__info">
                 <h3 class="ps-heading">Мы всегда на связи</h3>
-                <p>Производство эксклюзивной Дорогой и качественной мебели любой сложности. Сдача объектов в четкие сроки. Принятие заказов по Договору</p>
+                <p>Производство эксклюзивной Дорогой и качественной мебели любой сложности. Сдача объектов в четкие
+                    сроки. Принятие заказов по Договору</p>
                 <div class="ps-contact__detail">
                     <p><span>Адрес:</span>Сайрам 7 тупик, дом 50, Ташкент Узбекистан</p>
                     <p><span>Тел:</span>+998 99 8870955</p>

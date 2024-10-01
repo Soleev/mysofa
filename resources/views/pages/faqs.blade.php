@@ -1,7 +1,7 @@
 @extends('layouts.app')
-@section('content')
 @section('title', 'Вопросы и ответы - MySofa')
 @section('description', 'Ответы на часто задаваемые вопросы о продуктах и услугах MySofa. Узнайте больше о доставке, возврате, сроках изготовления мебели и других важных аспектах.')
+@section('content')
 <div class="ps-hero bg--cover" data-background="assets/images/hero/hero-faq.jpg">
         <div class="container">
             <h2 class="ps-hero__heading">FAQs</h2>

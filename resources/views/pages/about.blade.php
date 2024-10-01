@@ -1,8 +1,7 @@
 @extends('layouts.app')
-@section('content')
 @section('title', 'О нас - MySofa')
 @section('description', 'Узнайте больше о компании MySofa, лидере в производстве и продаже качественной мебели.')
-
+@section('content')
 <div class="ps-hero bg--cover" data-background="assets/images/hero/shop-1.jpg"
     style="background: url(&quot;assets/images/hero/shop-1.jpg&quot;);">
     <div class="container">
