@@ -199,7 +199,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--}}
 </div>
 <div class="ps-about-gallery">
     <div class="container">

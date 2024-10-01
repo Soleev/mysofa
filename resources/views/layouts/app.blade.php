@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <meta name="mobile-web-app-capable" content="yes">
-    <link href="apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="favicon.png" rel="icon">
+
+    <!-- Favicon and Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.png">
+
     <meta name="author" content="Shoxrux Soleyev">
-    <title>@yield('title') | MySofa'</title>
+    <title>@yield('title') | MySofa</title>
     <meta name="description" content="@yield('description')">
+
     <!-- Canonical URL -->
     <link rel="canonical" href="@yield('canonical', url()->current())">
+
+    <!-- CSS Libraries -->
     <link href="{{ asset('/assets/plugins/fontawesome-free-6.6.0-web/css/all.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/exist-font/style.css">
-    <!-- CSS Library-->
     <link rel="stylesheet" href="assets/plugins/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/plugins/owl-carousel/assets/owl.carousel.css">
     <link rel="stylesheet" href="assets/plugins/bootstrap-select/dist/css/bootstrap-select.min.css">
@@ -28,9 +33,9 @@
     <link rel="stylesheet" href="assets/plugins/revolution/css/layers.css">
     <link rel="stylesheet" href="assets/plugins/revolution/css/navigation.css">
     <link rel="stylesheet" href="assets/css/sliders/slider-3.css">
-    <!-- Custom-->
+    <!-- Custom Styles -->
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1T5J1FJNS"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -67,27 +72,27 @@
                     <li><a href="#"><i class="exist-user"></i></a></li>
                     <li class="header__cart"><a class="ps-shopping" href="#" data-toggle="dropdown"
                                                 aria-haspopup="true" aria-expanded="false" id="shopping-cart"><i
-                                    class="exist-minicart"></i><span><i>0</i></span></a>
+                                class="exist-minicart"></i><span><i>0</i></span></a>
                         <ul class="dropdown-menu" aria-labelledby="shopping-cart" id="shopping-list">
                             <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail"
                                                                            href="product-detail.html"><img
-                                                src="assets/images/cart/1.jpg"
-                                                alt=""></a><span class="ps-product__content"><a
-                                                class="ps-product__title" href="#">Диван Эндор</a><span
-                                                class="ps-product__quantity">1 x <span>
+                                            src="assets/images/cart/1.jpg"
+                                            alt=""></a><span class="ps-product__content"><a
+                                            class="ps-product__title" href="#">Диван Эндор</a><span
+                                            class="ps-product__quantity">1 x <span>
                                                         5 000 000</span></span>
                                             </span><a class="ps-product__remove" href="#"><i
-                                                class="fa fa-trash"></i></a></span>
+                                            class="fa fa-trash"></i></a></span>
                             </li>
                             <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail"
                                                                            href="product-detail.html"><img
-                                                src="assets/images/cart/2.jpg"
-                                                alt=""></a><span class="ps-product__content"><a
-                                                class="ps-product__title" href="#">Диван Lema Cloud</a><span
-                                                class="ps-product__quantity">1 x <span>
+                                            src="assets/images/cart/2.jpg"
+                                            alt=""></a><span class="ps-product__content"><a
+                                            class="ps-product__title" href="#">Диван Lema Cloud</a><span
+                                            class="ps-product__quantity">1 x <span>
                                                         5 000 000</span></span>
                                             </span><a class="ps-product__remove" href="#"><i
-                                                class="fa fa-trash"></i></a></span>
+                                            class="fa fa-trash"></i></a></span>
                             </li>
                             <li class="total">
                                 <p>Всего: <span> 10 млн. сум</span></p><a class="ps-btn" href="#">В корзину</a>
@@ -111,12 +116,13 @@
 <!-- Основной контент -->
 @yield('content')
 <!-- Подвал сайта -->
+
 <footer class="ps-footer--1">
     <div class="ps-container-fluid">
         <div class="row">
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
                 <div class="ps-footer__copyright">
-                    <p><a href="https://t.me/soleyev">Made by Soleyev</a></p>
+                    <p><a href="https://t.me/soleyev">made by Soleyev</a></p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
@@ -130,10 +136,13 @@
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
                 <ul class="ps-footer__social">
-                    <li><a href="https://www.facebook.com/Mysofa.uz/" target="_blank"><i class="fa-brands fa-facebook"></i>facebook</a></li>
-                    <li><a href="https://t.me/mysofa_uz" target="_blank"><i class="fa-brands fa-telegram"></i>telegram</a>
+                    <li><a href="https://www.facebook.com/Mysofa.uz/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i>facebook</a></li>
+                    <li><a href="https://t.me/mysofa_uz" target="_blank"><i
+                                class="fa-brands fa-telegram"></i>telegram</a>
                     </li>
-                    <li><a href="https://www.instagram.com/my_sofa.uz/" target="_blank"><i class="fa-brands fa-instagram"></i>instagram</a></li>
+                    <li><a href="https://www.instagram.com/my_sofa.uz/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i>instagram</a></li>
                 </ul>
             </div>
         </div>
@@ -158,22 +167,21 @@
 <script type="text/javascript" src="assets/plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- Custom scripts-->
 <script src="{{ asset('assets/js/main.js') }}"></script>
-    <script type="text/javascript" src="assets/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript"
-            src="assets/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script type="text/javascript"
-            src="assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript"
-            src="assets/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript"
-            src="assets/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript"
-            src="assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript"
-            src="assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="assets/js/slider_3.js"></script>
+<script type="text/javascript" src="assets/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="assets/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript"
+        src="assets/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript"
+        src="assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript"
+        src="assets/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript"
+        src="assets/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript"
+        src="assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript"
+        src="assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="assets/js/slider_3.js"></script>
 
 </body>
-
 </html>

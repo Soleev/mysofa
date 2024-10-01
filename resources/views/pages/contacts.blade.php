@@ -9,19 +9,19 @@
                 width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
-
         <div class="ps-contact__right" data-mh="contact-1">
             <div class="ps-contact__info">
                 <h3 class="ps-heading">Мы всегда на связи</h3>
-                <p>Производство эксклюзивной Дорогой и качественной мебели любой сложности. Сдача объектов в четкие
-                    сроки. Принятие заказов по Договору</p>
+                <p>Производство эксклюзивной Дорогой и качественной мебели любой сложности. Сдача объектов в четкие сроки.
+                    <br> Принятие заказов по Договору
+                </p>
                 <div class="ps-contact__detail">
                     <p><span>Адрес:</span>Сайрам 7 тупик, дом 50, Ташкент Узбекистан</p>
                     <p><span>Тел:</span>+998 99 8870955</p>
                     <p><span>Email</span><a href="#">info@mysofa.uz/</a></p>
                     <p><span>Часы работы</span>Пн - Пт : 9:00 - 18:00
                         <br> Сб - Вс : Закрыто</p>
+                    <a href="https://g.page/r/CfGYrEUbt8UpEBM/review">Будем Вам благодарны за отзыв на Google</a>
                 </div>
                 <form class="ps-form--contact" action="do_action" method="post">
                     <div class="row">
