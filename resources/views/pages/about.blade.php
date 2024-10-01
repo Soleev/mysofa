@@ -225,12 +225,11 @@
 <div class="ps-home8-partner">
     <div class="container">
         <div class="owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="5000" data-owl-gap="30" data-owl-nav="false" data-owl-dots="false" data-owl-item="5" data-owl-item-xs="2" data-owl-item-sm="3" data-owl-item-md="4" data-owl-item-lg="5" data-owl-duration="1000" data-owl-mousedrag="on">
-            <img src="assets/images/partner/partner-1.png" alt="">
-            <img src="assets/images/partner/partner-2.png" alt="">
-            <img src="assets/images/partner/partner-3.png" alt="">
-            <img src="assets/images/partner/partner-4.png" alt="">
-            <img src="assets/images/partner/partner-5.png" alt="">
-            <img src="assets/images/partner/partner-6.png" alt="">
+            <img src="assets/images/partner/ardo.png" alt="Ардо">
+            <img src="assets/images/partner/aziadrev.png" alt="АзияДрев">
+            <img src="assets/images/partner/bibtex.png" alt="Бибтекс">
+            <img src="assets/images/partner/premyera.png" alt="Премьера">
+            <img src="assets/images/partner/soyuzm.png" alt="СоюзМ">
         </div>
     </div>
 </div>

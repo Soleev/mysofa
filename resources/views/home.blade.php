@@ -217,19 +217,17 @@
                                                     class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html">Диван</a><span
-                                        class="ps-product__price">5 000
-                                        000</span>
+                                <div class="ps-product__content">
+                                    <a class="ps-product__title" href="product-detail-1.html">Диван</a>
+                                    <span class="ps-product__price">5 000 000</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                             <div class="ps-product--1" data-mh="product-item">
-                                <div class="ps-product__thumbnail"><img src="assets/images/product/home-2/product-2.jpg"
-                                                                        alt=""><a class="ps-btn ps-product__shopping"
-                                                                                  href="#"><i
-                                            class="exist-minicart"></i>Купить</a>
+                                <div class="ps-product__thumbnail">
+                                    <img src="assets/images/product/home-2/product-2.jpg" alt="">
+                                    <a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
                                         <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
                                         <li><a href="#" data-label="Сравнить"><i class="exist-compare"></i></a></li>
@@ -237,9 +235,9 @@
                                                     class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html"> White </a><span
-                                        class="ps-product__price">$1250.00</span>
+                                <div class="ps-product__content">
+                                    <a class="ps-product__title" href="product-detail-1.html"> White </a>
+                                    <span class="ps-product__price">$1250.00</span>
                                 </div>
                             </div>
                         </div>
@@ -621,10 +619,6 @@
                                     <p><strong>Категория:</strong><a href="#">Диваны</a>,<a href="#">Мягкие</a></p>
                                 </div>
                                 <div class="ps-product__divider"></div>
-                                <p class="ps-product__sharing">Поделиться:<a href="#"><i
-                                            class="fa fa-facebook"></i></a><a href="#"><i
-                                            class="fa fa-twitter"></i></a><a href="#"><i
-                                            class="fa fa-instagram"></i></a></p>
                             </div>
                         </div>
                     </div>
