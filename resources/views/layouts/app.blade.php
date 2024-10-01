@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="assets/plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
     <link rel="stylesheet" href="assets/plugins/slick/slick/slick.css">
     <link rel="stylesheet" href="assets/plugins/magnific-popup/dist/magnific-popup.css">
-    <link rel="stylesheet" href="assets/plugins/animate.css/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="assets/plugins/jquery-ui/jquery-ui.min.css">
     <link rel="stylesheet" href="assets/plugins/revolution/css/settings.css">
     <link rel="stylesheet" href="assets/plugins/revolution/css/layers.css">

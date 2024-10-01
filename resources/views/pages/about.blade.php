@@ -27,36 +27,42 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                     <div class="ps-block--about" data-mh="about" style="height: 271px;">
                         <h3 class="ps-heading">Доступность </h3>
+                        <p><i class="fa-regular fa-face-grin-stars fa-beat fa-2xl"></i></p>
                         <p>Мы предлагаем мебель по доступным ценам, без ущерба для качества.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                     <div class="ps-block--about" data-mh="about" style="height: 271px;">
                         <h3 class="ps-heading">Экологичность </h3>
+                        <p><i class="fa-brands fa-pagelines fa-flip fa-2xl"></i></p>
                         <p>Мы используем экологически чистые материалы и заботимся об окружающей среде.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                     <div class="ps-block--about" data-mh="about" style="height: 271px;">
                         <h3 class="ps-heading">Качество</h3>
+                        <p><i class="fa-regular fa-star fa-spin fa-spin-reverse fa-2xl"></i></p>
                         <p>Мы используем только проверенные материалы и строго контролируем процесс производства на каждом этапе.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                     <div class="ps-block--about" data-mh="about" style="height: 271px;">
                         <h3 class="ps-heading">Дизайн</h3>
+                        <p><i class="fa-solid fa-pen-nib fa-beat fa-2xl"></i></p>
                         <p>Наши модели мебели созданы с учётом современных тенденций в дизайне интерьера.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                     <div class="ps-block--about" data-mh="about" style="height: 271px;">
                         <h3 class="ps-heading">Комфорт</h3>
+                        <p><i class="fa-solid fa-crown fa-beat-fade fa-2xl"></i></p>
                         <p>Мебель MySofa создаётся с заботой о вашем комфорте и эргономике.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                     <div class="ps-block--about" data-mh="about" style="height: 271px;">
                         <h3 class="ps-heading">Индивидуальный подход</h3>
+                        <p><i class="fa-solid fa-person-circle-check fa-fade fa-2xl"></i></p>
                         <p>Мы предлагаем услуги по разработке мебели на заказ, чтобы она идеально соответствовала вашим потребностям.</p>
                     </div>
                 </div>
