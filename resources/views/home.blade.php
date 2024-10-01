@@ -32,7 +32,8 @@
                              data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
                              data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
                              data-paddingleft="[45,45,45,45]"
-                             style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #000000; letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(0,0,0);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                             style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #000000; letter-spacing: px;
+                             font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(0,0,0);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
                             Купить
                         </div>
                         <!-- LAYER NR. 2 -->
