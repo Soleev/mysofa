@@ -2500,7 +2500,7 @@ textarea.form-control {
     line-height: 20px;
     color: rgba(0, 0, 0, 0.5); }
 .ps-breadcrumb--3 .breadcrumb > li:before {
-    content: "/"; }
+    content: "/ "; }
 .ps-breadcrumb--3 .breadcrumb > li > a {
     display: inline-block;
     font-size: 11px;
