@@ -92,7 +92,7 @@
                                 style="transform: translate3d(-2925px, 0px, 0px); transition: 1s; width: 4095px;">
                                 <div class="owl-item cloned" style="width: 555px; margin-right: 30px;">
                                     <div class="ps-block--testimonial">
-                                        <div class="ps-block__header"><img src="http://via.placeholder.com/60x60"
+                                        <div class="ps-block__header"><img src="https://via.placeholder.com/60x60"
                                                 alt="">
                                             <h5>John Doe</h5>
                                             <p>15 October 2017</p>
@@ -106,7 +106,7 @@
                                 </div>
                                 <div class="owl-item cloned" style="width: 555px; margin-right: 30px;">
                                     <div class="ps-block--testimonial">
-                                        <div class="ps-block__header"><img src="http://via.placeholder.com/60x60"
+                                        <div class="ps-block__header"><img src="https://via.placeholder.com/60x60"
                                                 alt="">
                                             <h5>John Doe</h5>
                                             <p>15 October 2017</p>
@@ -120,7 +120,7 @@
                                 </div>
                                 <div class="owl-item" style="width: 555px; margin-right: 30px;">
                                     <div class="ps-block--testimonial">
-                                        <div class="ps-block__header"><img src="http://via.placeholder.com/60x60"
+                                        <div class="ps-block__header"><img src="https://via.placeholder.com/60x60"
                                                 alt="">
                                             <h5>John Doe</h5>
                                             <p>15 October 2017</p>
@@ -134,7 +134,7 @@
                                 </div>
                                 <div class="owl-item" style="width: 555px; margin-right: 30px;">
                                     <div class="ps-block--testimonial">
-                                        <div class="ps-block__header"><img src="http://via.placeholder.com/60x60"
+                                        <div class="ps-block__header"><img src="https://via.placeholder.com/60x60"
                                                 alt="">
                                             <h5>John Doe</h5>
                                             <p>15 October 2017</p>
@@ -148,7 +148,7 @@
                                 </div>
                                 <div class="owl-item" style="width: 555px; margin-right: 30px;">
                                     <div class="ps-block--testimonial">
-                                        <div class="ps-block__header"><img src="http://via.placeholder.com/60x60"
+                                        <div class="ps-block__header"><img src="https://via.placeholder.com/60x60"
                                                 alt="">
                                             <h5>John Doe</h5>
                                             <p>15 October 2017</p>
@@ -162,7 +162,7 @@
                                 </div>
                                 <div class="owl-item cloned active" style="width: 555px; margin-right: 30px;">
                                     <div class="ps-block--testimonial">
-                                        <div class="ps-block__header"><img src="http://via.placeholder.com/60x60"
+                                        <div class="ps-block__header"><img src="https://via.placeholder.com/60x60"
                                                 alt="">
                                             <h5>John Doe</h5>
                                             <p>15 October 2017</p>
@@ -176,7 +176,7 @@
                                 </div>
                                 <div class="owl-item cloned" style="width: 555px; margin-right: 30px;">
                                     <div class="ps-block--testimonial">
-                                        <div class="ps-block__header"><img src="http://via.placeholder.com/60x60"
+                                        <div class="ps-block__header"><img src="https://via.placeholder.com/60x60"
                                                 alt="">
                                             <h5>John Doe</h5>
                                             <p>15 October 2017</p>
