@@ -6,18 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <meta name="mobile-web-app-capable" content="yes">
-
     <!-- Favicon and Apple Touch Icon -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="icon" href="/favicon.png">
-
-    <meta name="author" content="Shoxrux Soleyev">
-    <title>@yield('title') | MySofa</title>
-    <meta name="description" content="@yield('description')">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="@yield('canonical', url()->current())">
-
     <!-- CSS Libraries -->
     <link href="{{ asset('/assets/plugins/fontawesome-free-6.6.0-web/css/all.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="/assets/plugins/exist-font/style.css">
@@ -35,36 +26,16 @@
     <link rel="stylesheet" href="/assets/css/sliders/slider-3.css">
     <!-- Custom Styles -->
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
-    <!-- Google Tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1T5J1FJNS"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <title>Добавить товар</title>
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'G-Z1T5J1FJNS');
-    </script>
 </head>
 <body class="ps-loading">
 <header class="header header--3" data-sticky="true">
     <div class="header__top">
         <div class="ps-container-fluid">
-            <!--<div class="left">
-                <div class="btn-group ps-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"
-                                                      aria-haspopup="true" aria-expanded="false">Ру<i
-                            class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Русский</a></li>
-                        <li><a href="#">O'zbek</a></li>
-                        <li><a href="#">English</a></li>
-                    </ul>
-                </div>
-            </div> -->
-            <div class="center"><a class="ps-logo" href="/"><img src="/assets/images/logo.png" alt=""></a></div>
+            <div class="center"><a class="ps-logo" href="/">
+                    <img src="/assets/images/logo.png" alt=""></a>
+            </div>
             <div class="right">
                 <div class="menu-toggle"><span></span></div>
                 <ul class="header__actions">
@@ -106,7 +77,7 @@
     <nav class="navigation">
         <div class="ps-container-fluid">
             <ul class="menu">
-                <li><a href="/catalog">Каталог</a></li>
+                <li><a href="shop-category">Каталог</a></li>
                 <li><a href="about">О нас</a></li>
                 <li><a href="contacts">Контакты</a></li>
             </ul>
@@ -114,7 +85,52 @@
     </nav>
 </header>
 <!-- Основной контент -->
-@yield('content')
+<div class="container">
+    <h1>Добавить новый товар</h1>
+
+    <!-- Форма для создания нового товара -->
+    <form action="{{ route('products.store') }}" method="POST" enctype="multipart/form-data">
+        @csrf
+
+        <!-- Название товара -->
+        <div class="form-group">
+            <label for="name">Название товара</label>
+            <input type="text" name="name" class="form-control" id="name" required>
+        </div>
+
+        <!-- Описание товара -->
+        <div class="form-group">
+            <label for="description">Описание</label>
+            <textarea name="description" class="form-control" id="description" required></textarea>
+        </div>
+
+        <!-- Цена товара -->
+        <div class="form-group">
+            <label for="price">Цена</label>
+            <input type="text" name="price" class="form-control" id="price" required>
+        </div>
+
+        <!-- Категория товара -->
+        <div class="form-group">
+            <label for="category_id">Категория</label>
+            <select name="category_id" class="form-control" id="category_id" required>
+                @foreach($categories as $category)
+                    <option value="{{ $category->id }}">{{ $category->name }}</option>
+                @endforeach
+            </select>
+        </div>
+
+        <!-- Изображение товара -->
+        <div class="form-group">
+            <label for="image">Изображение</label>
+            <input type="file" name="image" class="form-control-file" id="image">
+        </div>
+
+        <!-- Кнопка отправки -->
+        <button type="submit" class="btn btn-primary">Добавить товар</button>
+    </form>
+</div>
+
 <!-- Подвал сайта -->
 
 <footer class="ps-footer--1">
@@ -185,3 +201,4 @@
 
 </body>
 </html>
+

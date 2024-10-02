@@ -2,6 +2,14 @@
 @section('title', 'Обо мне - MySofa')
 @section('description', 'Узнайте больше о создателе MySofa. Моё вдохновение, опыт и страсть к созданию качественной и комфортной мебели. Откройте историю бренда MySofa.')
 @section('content')
+    <div class="ps-breadcrumb ps-breadcrumb--3">
+        <div class="ps-container-fluid">
+            <ol class="breadcrumb">
+                <li><a href="/">Главная</a></li>
+                <li class="active">Обо мне</li>
+            </ol>
+        </div>
+    </div>
     <div class="ps-about-me bg--cover" data-background="assets/images/about-me.jpg">
         <div class="container">
             <div class="ps-about-me__info">
