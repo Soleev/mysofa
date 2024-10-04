@@ -77,9 +77,9 @@
     <nav class="navigation">
         <div class="ps-container-fluid">
             <ul class="menu">
-                <li><a href="shop-category">Каталог</a></li>
-                <li><a href="about">О нас</a></li>
-                <li><a href="contacts">Контакты</a></li>
+                <li><a href="/catalog">Каталог</a></li>
+                <li><a href="/about">О нас</a></li>
+                <li><a href="/contacts">Контакты</a></li>
             </ul>
         </div>
     </nav>
@@ -107,7 +107,7 @@
         <!-- Цена товара -->
         <div class="form-group">
             <label for="price">Цена</label>
-            <input type="text" name="price" class="form-control" id="price" required>
+            <input type="number" name="price" class="form-control" id="price" placeholder="слитно цифрами (10000000)" required>
         </div>
 
         <!-- Категория товара -->
@@ -123,12 +123,29 @@
         <!-- Изображение товара -->
         <div class="form-group">
             <label for="image">Изображение</label>
-            <input type="file" name="image" class="form-control-file" id="image">
+            <input type="file" name="image" class="form-control-file" id="image" accept=".jpg,.jpeg,.png"  required/>
         </div>
-
         <!-- Кнопка отправки -->
         <button type="submit" class="btn btn-primary">Добавить товар</button>
+        <!-- Кнопка выхода -->
+        <button class="btn btn-danger"><a href="#" onclick="logout();">Выйти</a></button>
     </form>
+
+    <form id="logout-form" action="{{ route('products.password.logout') }}" method="POST" style="display: none;">
+        @csrf
+    </form>
+
+    <script>
+        function logout() {
+            var form = document.getElementById('logout-form');
+            if (form) {
+                form.submit();
+            } else {
+                console.error('Форма выхода не найдена');
+            }
+        }
+    </script>
+
 </div>
 
 <!-- Подвал сайта -->
@@ -146,8 +163,8 @@
                     <li><a href="#">Правила</a></li>
                     <li><a href="#">Термины</a></li>
                     <li><a href="#">Блог</a></li>
-                    <li><a href="faqs">FAQs</a></li>
-                    <li><a href="about-me">Обо мне</a></li>
+                    <li><a href="/faqs">FAQs</a></li>
+                    <li><a href="/about-me">Обо мне</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">

@@ -15,8 +15,13 @@ class ProductController extends Controller
     }
 
     // Отображение формы для добавления товара
-    public function create(): \Illuminate\Contracts\View\View|\Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application
+    public function create()
     {
+        // Проверка, был ли введён правильный пароль
+        if (!session('password_protected')) {
+            return redirect()->route('products.password.form');
+        }
+        // Отображение страницы создания продукта, если проверка пройдена
         $categories = Category::all(); // Получаем все категории для выбора
         return view('products.create', compact('categories'));
     }
@@ -30,7 +35,7 @@ class ProductController extends Controller
             'description' => 'required',
             'price' => 'required|numeric',
             'category_id' => 'required|exists:categories,id',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:10000',
         ]);
 
         // Получаем данные из формы
