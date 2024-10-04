@@ -47,7 +47,7 @@
                             data-textAlign="['center','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                             style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;text-align:center;">
-                            New <br>
+                            Beverly <br>
                             <Arrivals>
                         </h2>
                     </li>

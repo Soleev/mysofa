@@ -38,19 +38,23 @@
                         @endforeach
                     </div>
                 </div>
-                <div class="text-center mt-50"><a class="ps-btn ps-btn--black" href="#">Load more</a></div>
+                <div class="text-center mt-50"><a class="ps-btn ps-btn--black" href="#">Загрузить еще</a></div>
             </div>
         </div>
     </main>
     <div class="ps-subscribe--2 bg--cover" data-background="images/background/subscribe-2.jpg">
         <div class="container">
             <form class="ps-form--subscribe-2" action="do_action" method="post">
-                <h3 class="ps-heading">Get 15% Off Your Next Order</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum nibh,
-                    <br> vel aliquet massa. Etiam in magna id risus lacinia luctus eget eu est.</p>
+                <h3 class="ps-heading">Подпишитесь на рассылку новинок от MySofa!</h3>
+                <p class="text-left">Дорогие друзья!<br>
+                    Хотите первыми узнавать о наших новых коллекциях и специальных предложениях? Подписывайтесь на рассылку MySofa!
+                    Мы будем присылать вам:<br>
+                    Анонсы новых коллекций мебели<br>
+                    Специальные акции и скидки<br>
+                    Советы по созданию уютного интерьера</p>
                 <div class="form-group">
-                    <input class="form-control" type="text" placeholder="Your Email Address">
-                    <button class="ps-btn">Sign up now</button>
+                    <input class="form-control" type="text" placeholder="Email">
+                    <button class="ps-btn">Подписаться</button>
                 </div>
             </form>
         </div>
