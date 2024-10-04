@@ -8,8 +8,13 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function index(): \Illuminate\Contracts\View\View|\Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application
+    public function index()
     {
+        // Проверка, был ли введён правильный пароль
+        if (!session('password_protected')) {
+            return redirect()->route('products.password.form');
+        }
+        // Отображение страницы создания продукта, если проверка пройдена
         $products = Product::all();
         return view('products.index', compact('products'));
     }

@@ -12,6 +12,7 @@ Route::get('/about', function () {return view('pages.about');});
 Route::get('/faqs', function () {return view('pages.faqs');});
 Route::get('/about-me', function () {return view('pages.about-me');});
 Route::get('/catalog', function () {return view('pages.catalog');});
+
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');
 
 // Отображение формы для добавления товара

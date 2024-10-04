@@ -24,7 +24,7 @@ class PasswordProtectedPageController extends Controller
         if ($request->password === $this->password) {
             // Сохраняем в сессии информацию о том, что пользователь ввел правильный пароль
             session(['password_protected' => true]);
-            return redirect()->route('products.create');
+            return redirect()->route('products.index');
         }
 // Если пароль неверный, возвращаем обратно с ошибкой
         return back()->withErrors(['password' => 'Неверный пароль']);
