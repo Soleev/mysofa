@@ -130,8 +130,8 @@
                     <li><a href="#">Правила</a></li>
                     <li><a href="#">Термины</a></li>
                     <li><a href="#">Блог</a></li>
-                    <li><a href="faqs">FAQs</a></li>
-                    <li><a href="about-me">Обо мне</a></li>
+                    <li><a href="/faqs">FAQs</a></li>
+                    <li><a href="/about-me">Обо мне</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
