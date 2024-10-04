@@ -37,7 +37,7 @@ class ProductController extends Controller
         // Валидация данных
         $request->validate([
             'name' => 'required|string|max:255',
-            'description' => 'required',
+            'size' => 'required',
             'price' => 'required|numeric',
             'category_id' => 'required|exists:categories,id',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:10000',

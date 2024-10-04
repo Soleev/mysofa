@@ -104,13 +104,9 @@
                 }
             }
         </script>
-        </script>
         <div class="ps-breadcrumb ps-breadcrumb--3">
             <div class="ps-container-fluid"></div>
         </div>
-
-
-
         @php
             $lastProduct = $products->last();
         @endphp
@@ -118,7 +114,7 @@
         @if($lastProduct)
             <div class="product-item">
                 <h2>Название: {{ $lastProduct->name }}</h2>
-                <p class="font-italic">Описание: {{ $lastProduct->description }}</p>
+                <p class="font-italic">Размер: {{ $lastProduct->size }}</p>
                 <img src="{{ asset('storage/' . $lastProduct->image) }}" alt="{{ $lastProduct->name }}">
                 <h3>Цена: {{ number_format($lastProduct->price, 0, '.', ' ') }} сум</h3>
             </div>

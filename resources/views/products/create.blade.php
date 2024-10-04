@@ -100,8 +100,8 @@
 
         <!-- Описание товара -->
         <div class="form-group">
-            <label for="description">Описание</label>
-            <textarea name="description" class="form-control" id="description" required></textarea>
+            <label for="description">Размер</label>
+            <textarea name="size" class="form-control" id="description" required></textarea>
         </div>
 
         <!-- Цена товара -->
