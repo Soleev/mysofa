@@ -24,11 +24,11 @@
                                 <div class="grid-item__content-wrapper">
                                     <div class="ps-post--portfolio">
                                         <div class="ps-post__thumbnail"><a class="ps-btn ps-post__morelink" href="#">Подробнее</a>
-                                            <img src="{{ asset('storage/' . $product->image) }}"
-                                                 alt="{{ $product->name }}">
+                                            <img src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->name }}">
                                         </div>
                                         <div class="ps-post__content">
                                             <h3>{{ $product->name }}</h3>
+                                            <p class="font-italic">Размеры: {{ $product->size }}</p>
                                             <p>Цена: {{ number_format($product->price, 0, '.', ' ') }} сум</p>
 
                                         </div>
