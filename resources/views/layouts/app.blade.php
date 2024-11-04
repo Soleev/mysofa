@@ -74,15 +74,17 @@
                                                 aria-haspopup="true" aria-expanded="false" id="shopping-cart"><i
                                 class="exist-minicart"></i><span><i>0</i></span></a>
                         <ul class="dropdown-menu" aria-labelledby="shopping-cart" id="shopping-list">
-                            <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail"
-                                                                           href="product-detail.html"><img
-                                            src="/assets/images/cart/1.jpg"
-                                            alt=""></a><span class="ps-product__content"><a
-                                            class="ps-product__title" href="#">Диван Эндор</a><span
-                                            class="ps-product__quantity">1 x <span>
-                                                        5 000 000</span></span>
-                                            </span><a class="ps-product__remove" href="#"><i
-                                            class="fa fa-trash"></i></a></span>
+                            <li>
+                                <span class="ps-product--shopping-cart">
+                                    <a class="ps-product__thumbnail" href="product-detail.html">
+                                        <img src="/assets/images/cart/1.jpg" alt="">
+                                    </a>
+                                    <span class="ps-product__content">
+                                        <a class="ps-product__title" href="#">Диван Эндор</a>
+                                        <span class="ps-product__quantity">1 x <span>5 000 000</span></span></span>
+                                    <a class="ps-product__remove" href="#"><i class="fa fa-trash"></i>
+                                    </a>
+                                </span>
                             </li>
                             <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail"
                                                                            href="product-detail.html"><img
@@ -107,8 +109,8 @@
         <div class="ps-container-fluid">
             <ul class="menu">
                 <li><a href="/catalog">Каталог</a></li>
-                <li><a href="about">О нас</a></li>
-                <li><a href="contacts">Контакты</a></li>
+                <li><a href="/about">О нас</a></li>
+                <li><a href="/contacts">Контакты</a></li>
             </ul>
         </div>
     </nav>
