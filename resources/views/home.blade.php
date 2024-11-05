@@ -1,6 +1,6 @@
 @extends('layouts.app')
-@section('title', 'Компания по производству мягкой мебели премиум сегмента по вашим индивидуальным проектам')
-@section('description', 'MySofa - лучший выбор для вашего интерьера.')
+@section('title', 'MySofa - лучший выбор мебели для вашего интерьера.')
+@section('description', 'Компания по производству мягкой мебели премиум сегмента по вашим индивидуальным проектам')
 @section('content')
     <div class="ps-container-fluid">
         <div id="rev_slider_5_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="home-3"
@@ -59,7 +59,7 @@
                         data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                         data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/home-slider/home-3/home-3-2.jpg" alt="" title="home-3-2" width="1720"
+                        <img src="assets/images/home-slider/home-3/boca-home2.jpg" alt="" title="boca" width="1720"
                              height="740" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                              class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
@@ -88,7 +88,7 @@
                             data-textAlign="['center','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                             style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;text-align:center;">
-                            Casual <br>
+                            B o c a <br>
                             </Arrivals>
                             <Collection>
                         </h2>
@@ -101,7 +101,7 @@
                         data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                         data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/home-slider/home-3/home-3-4.jpg" alt="" title="home-3-3" width="1720"
+                        <img src="assets/images/home-slider/home-3/lema-cloud-home3.jpg" alt="" title="home-3-3" width="1720"
                              height="740" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                              class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
@@ -130,7 +130,7 @@
                             data-textAlign="['center','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                             style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;text-align:center;">
-                            Dyilani <br>
+                            Lema Cloud <br>
                             </Collection>
                             <Footwear>
                         </h2>
@@ -471,14 +471,15 @@
             <div class="text-center mt-30"><a class="ps-btn ps-btn--black" href="#">Посмотреть все</a></div>
         </div>
     </div>
+
     <div class="ps-section--big-collection">
         <div class="ps-container-fluid">
-            <div class="ps-collection--big"><img src="assets/images/collection/home-3/collection-large.jpg" alt="">
+            <div class="ps-collection--big"><img src="assets/images/collection/home-3/mashmello-large.jpg" alt="Mashmello от MySofa ">
                 <div class="ps-collection__content left">
-                    <h4>2023 <br> Collection</h4><a class="ps-btn ps-btn--outline" href="#">Купить</a>
+                    <h4>2024 <br> Collection</h4><a class="ps-btn ps-btn--outline" href="#">Купить</a>
                 </div>
                 <div class="ps-collection__content right">
-                    <h4>2024<br> Collection</h4><a class="ps-btn ps-btn--outline" href="#">Купить</a>
+                    <h4>2025<br> Collection</h4><a class="ps-btn ps-btn--outline" href="#">Купить</a>
                 </div>
             </div>
         </div>
@@ -496,21 +497,25 @@
                      data-owl-duration="1000" data-owl-mousedrag="on"
                      data-owl-nav-left="&lt;i class='exist-leftarrow'&gt;&lt;/i&gt;"
                      data-owl-nav-right="&lt;i class='exist-rightarrow'&gt;&lt;/i&gt;">
+                    <a href="https://www.instagram.com/reel/DBGSD6SOVI7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                       target="_blank">
+                        <img src="assets/images/instagram/instagram-6.jpg" alt="instagram">
+                    </a>
+                    <a href="https://www.instagram.com/reel/DBv-2Wko3ZZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                       target="_blank">
+                        <img src="assets/images/instagram/instagram-5.jpg" alt="instagram">
+                    </a>
                     <a href="https://www.instagram.com/reel/C-FU2WqORq2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
                        target="_blank">
-                        <img src="assets/images/instagram/instagram-1.jpg" alt="">
+                        <img src="assets/images/instagram/instagram-1.jpg" alt="instagram">
                     </a>
                     <a href="https://www.instagram.com/reel/C97T29yN_d1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
                        target="_blank">
-                        <img src="assets/images/instagram/instagram-2.jpg" alt="">
+                        <img src="assets/images/instagram/instagram-2.jpg" alt="instagram">
                     </a>
                     <a href="https://www.instagram.com/reel/C9R1BBPOuQf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
                        target="_blank">
-                        <img src="assets/images/instagram/instagram-3.jpg" alt="">
-                    </a>
-                    <a href="https://www.instagram.com/reel/C8wVDN6tayY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-                       target="_blank">
-                        <img src="assets/images/instagram/instagram-4.jpg" alt="">
+                        <img src="assets/images/instagram/instagram-3.jpg" alt="instagram">
                     </a>
                 </div>
             </div>

@@ -138,13 +138,9 @@
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
                 <ul class="ps-footer__social">
-                    <li><a href="https://www.facebook.com/Mysofa.uz/" target="_blank"><i
-                                class="fa-brands fa-facebook"></i>facebook</a></li>
-                    <li><a href="https://t.me/mysofa_uz" target="_blank"><i
-                                class="fa-brands fa-telegram"></i>telegram</a>
-                    </li>
-                    <li><a href="https://www.instagram.com/my_sofa.uz/" target="_blank"><i
-                                class="fa-brands fa-instagram"></i>instagram</a></li>
+                    <li><a href="https://www.instagram.com/my_sofa.uz/" target="_blank"><i class="fa-brands fa-instagram"></i>instagram</a></li>
+                    <li><a href="https://t.me/mysofa_uz" target="_blank"><i class="fa-brands fa-telegram"></i>telegram</a></li>
+                    <li><a href="https://www.facebook.com/Mysofa.uz/" target="_blank"><i class="fa-brands fa-facebook"></i>facebook</a></li>
                 </ul>
             </div>
         </div>

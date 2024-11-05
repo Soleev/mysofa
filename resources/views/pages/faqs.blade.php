@@ -17,42 +17,43 @@
         <div class="container">
             <div class="ps-accordion active">
                 <div class="ps-accordion__header">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet velit et mi posuere blandit?</p>
+                    <p>Что такое MySofa?</p>
                 </div>
                 <div class="ps-accordion__content">
-                    <p>Maecenas quis convallis velit. Aliquam laoreet leo non viverra tempor. Aliquam tincidunt mollis lacus, in condimentum ante scelerisque eu. Integer dapibus commodo elit et mollis.</p>
+                    <p>MySofa — это магазин мебели и декора, предлагающий широкий ассортимент товаров для создания уюта и комфорта в вашем доме.</p>
                 </div>
             </div>
             <div class="ps-accordion">
                 <div class="ps-accordion__header">
-                    <p>Vestibulum posuere, velit nec posuere ullamcorper, lorem nisl interdum enim, at fringilla massa lectus efficitur quam?</p>
+                    <p>Где находится ваш магазин?</p>
                 </div>
                 <div class="ps-accordion__content">
-                    <p>Maecenas quis convallis velit. Aliquam laoreet leo non viverra tempor. Aliquam tincidunt mollis lacus, in condimentum ante scelerisque eu. Integer dapibus commodo elit et mollis.</p>
+                    <p>Вы можете посетить нас по адресу: Сайрам 7 тупик, дом 50, Ташкент Узбекистан. Также мы предлагаем удобную доставку по городу.</p>
                 </div>
             </div>
             <div class="ps-accordion">
                 <div class="ps-accordion__header">
-                    <p>Morbi sollicitudin velit mauris, posuere ultrices lorem molestie sit amet?</p>
+                    <p>Как связаться с вами?</p>
                 </div>
                 <div class="ps-accordion__content">
-                    <p>Maecenas quis convallis velit. Aliquam laoreet leo non viverra tempor. Aliquam tincidunt mollis lacus, in condimentum ante scelerisque eu. Integer dapibus commodo elit et mollis.</p>
+                    <p>Вы можете связаться с нами через телеграм или позвонив по номеру +998 99 8870955 . Мы также доступны в социальных сетях.</p>
                 </div>
             </div>
             <div class="ps-accordion">
                 <div class="ps-accordion__header">
-                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus?</p>
+                    <p>Какие виды мебели вы предлагаете?</p>
                 </div>
                 <div class="ps-accordion__content">
-                    <p>Maecenas quis convallis velit. Aliquam laoreet leo non viverra tempor. Aliquam tincidunt mollis lacus, in condimentum ante scelerisque eu. Integer dapibus commodo elit et mollis.</p>
+                    <p>Мы предлагаем диваны, кресла, стулья, столы, кровати и многое другое. Вы можете ознакомиться с нашим полным каталогом на странице
+                    <a href="/catalog">Каталог</a>.</p>
                 </div>
             </div>
             <div class="ps-accordion">
                 <div class="ps-accordion__header">
-                    <p>Duis quis quam quis risus vulputate dictum vitae in dui. Praesent quis commodo lacus?</p>
+                    <p>Можно ли заказать мебель по индивидуальным размерам?</p>
                 </div>
                 <div class="ps-accordion__content">
-                    <p>Maecenas quis convallis velit. Aliquam laoreet leo non viverra tempor. Aliquam tincidunt mollis lacus, in condimentum ante scelerisque eu. Integer dapibus commodo elit et mollis.</p>
+                    <p>Да, мы принимаем заказы на мебель по индивидуальным размерам. Для получения подробной информации свяжитесь с нами через форму обратной связи или позвоните.</p>
                 </div>
             </div>
         </div>

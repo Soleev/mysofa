@@ -5,10 +5,6 @@
     <div class="ps-breadcrumb ps-breadcrumb--3">
 
         <div class="ps-container-fluid">
-            <ol class="breadcrumb">
-                <li><a href="/">Главная</a></li>
-                <li class="active">Каталог</li>
-            </ol>
             <h1>Каталог Мебели MySofa: Широкий Выбор для Любого Интерьера</h1>
         </div>
     </div>
@@ -79,7 +75,7 @@
                         <div class="grid-item__content-wrapper">
                             <div class="ps-collection--bottom">
                                 <a class="ps-collection__morelink" href="catalog/armchairs">Кресла</a>
-                                <img class="ps-fullwidth" src="assets/images/shop/category-12.jpg" alt="Кресла">
+                                <img class="ps-fullwidth" src="assets/images/catalog/kresla.jpg" alt="Каталог кресел">
                             </div>
                         </div>
                     </div>

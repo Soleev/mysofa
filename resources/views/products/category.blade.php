@@ -10,7 +10,7 @@
                         <ol class="breadcrumb">
                             <li><a href="/">Главная</a></li>
                             <li><a href="/catalog">Каталог</a></li>
-                            <li class="active">{{ $category->name }}</li>
+                            <li></li>
                         </ol>
                     </div>
                 </div>

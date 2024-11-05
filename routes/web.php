@@ -26,3 +26,4 @@ Route::post('/products', [ProductController::class, 'store'])->name('products.st
 
 Route::get('/catalog/{slug}', [ProductController::class, 'showByCategorySlug'])->name('catalog.pages');
 
+Route::get('/products/details', function () {return view('products.details');});
