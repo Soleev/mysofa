@@ -63,9 +63,11 @@ class ProductController extends Controller
     {
         // Ищем категорию по slug
         $category = Category::where('slug', $slug)->firstOrFail();
-        $products = $category->products; // Получаем товары категории
 
-        // Передаём категорию и товары в шаблон
+        // Получаем товары категории, отсортированные по дате добавления (последний добавленный)
+        $products = $category->products()->orderBy('created_at', 'desc')->get();
+
+        // Передаем категорию и товары в шаблон
         return view('products.category', compact('category', 'products'));
     }
 

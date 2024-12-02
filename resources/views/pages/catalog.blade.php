@@ -42,7 +42,7 @@
                         <div class="grid-item__content-wrapper">
                             <div class="ps-collection--bottom">
                                 <a class="ps-collection__morelink" href="catalog/couches">Кушетки</a><img
-                                    class="ps-fullwidth" src="assets/images/shop/category-4.jpg" alt="Кушетки">
+                                    class="ps-fullwidth" src="assets/images/shop/category-7.jpg" alt="Кушетки">
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                         <div class="grid-item__content-wrapper">
                             <div class="ps-collection--bottom">
                                 <a class="ps-collection__morelink" href="catalog/soft-soundproofing-panels">Шумоизоляционные панели мягкие</a>
-                                <img class="ps-fullwidth" src="assets/images/shop/category-6.jpg"
+                                <img class="ps-fullwidth" src="assets/images/shop/category-5.jpg"
                                      alt="Шумоизоляционные панели мягкие"></div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                         <div class="grid-item__content-wrapper">
                             <div class="ps-collection--bottom">
                                 <a class="ps-collection__morelink" href="catalog/office-sofas">Офисные диваны</a>
-                                <img class="ps-fullwidth" src="assets/images/shop/category-7.jpg" alt="Офисные диваны">
+                                <img class="ps-fullwidth" src="assets/images/shop/category-4.jpg" alt="Офисные диваны">
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                         <div class="grid-item__content-wrapper">
                             <div class="ps-collection--bottom">
                                 <a class="ps-collection__morelink" href="catalog/armchairs">Кресла</a>
-                                <img class="ps-fullwidth" src="assets/images/catalog/kresla.jpg" alt="Каталог кресел">
+                                <img class="ps-fullwidth" src="assets/images/shop/category-12.jpg" alt="Каталог кресел">
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                         <div class="grid-item__content-wrapper">
                             <div class="ps-collection--bottom">
                                 <a class="ps-collection__morelink" href="catalog/soft-panels-decor">Мягкие панели декор</a>
-                                <img class="ps-fullwidth" src="assets/images/shop/category-15.jpg"
+                                <img class="ps-fullwidth" src="assets/images/shop/category-5.jpg"
                                      alt="Мягкие панели декор">
                             </div>
                         </div>
@@ -125,7 +125,7 @@
                         <div class="grid-item__content-wrapper">
                             <div class="ps-collection--bottom">
                                 <a class="ps-collection__morelink" href="catalog/wedges">Танкетки</a>
-                                <img class="ps-fullwidth" src="assets/images/shop/category-10.jpg" alt="Танкетки">
+                                <img class="ps-fullwidth" src="assets/images/shop/category-8.jpg" alt="Танкетки">
                             </div>
                         </div>
                     </div>

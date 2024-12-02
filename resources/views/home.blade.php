@@ -218,8 +218,8 @@
                                     </ul>
                                 </div>
                                 <div class="ps-product__content">
-                                    <a class="ps-product__title" href="product-detail-1.html">Диван</a>
-                                    <span class="ps-product__price">5 000 000</span>
+                                    <a class="ps-product__title" href="product-detail-1.html">Лема</a>
+                                    <span class="ps-product__price">17 000 000сум</span>
                                 </div>
                             </div>
                         </div>
@@ -236,15 +236,15 @@
                                     </ul>
                                 </div>
                                 <div class="ps-product__content">
-                                    <a class="ps-product__title" href="product-detail-1.html"> White </a>
-                                    <span class="ps-product__price">$1250.00</span>
+                                    <a class="ps-product__title" href="product-detail-1.html">Дувэт</a>
+                                    <span class="ps-product__price">32 000 000сум</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                             <div class="ps-product--1" data-mh="product-item">
                                 <div class="ps-product__thumbnail">
-                                    <div class="ps-badge ps-badge--new"><span>New</span></div>
+                                    <div class="ps-badge ps-badge--new"><span>Новинка</span></div>
                                     <img
                                         src="assets/images/product/home-2/product-3.jpg" alt=""><a
                                         class="ps-btn ps-product__shopping" href="#"><i
@@ -257,9 +257,8 @@
                                     </ul>
                                 </div>
                                 <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html"> Velvet </a><span
-                                        class="ps-product__price">5 000
-                                        000</span>
+                                                                    href="product-detail-1.html"> Бейма </a><span
+                                        class="ps-product__price">6 680 000сум</span>
                                 </div>
                             </div>
                         </div>
@@ -280,9 +279,8 @@
                                     </ul>
                                 </div>
                                 <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html"> Sofa</a><span
-                                        class="ps-product__price">5 000 000
-                                        <del>$725.00</del></span>
+                                                                    href="product-detail-1.html">Кушетка</a><span
+                                        class="ps-product__price">5 000 000<del>$725.00</del></span>
                                 </div>
                             </div>
                         </div>
@@ -300,9 +298,8 @@
                                     </ul>
                                 </div>
                                 <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html"> Sofa</a><span
-                                        class="ps-product__price">$95.00
-                                        <del>$725.00</del></span>
+                                                                    href="product-detail-1.html">Эндор</a><span
+                                        class="ps-product__price"><del>15 000 000сум</del> 11 000 000сум</span>
                                 </div>
                             </div>
                         </div>
@@ -320,9 +317,8 @@
                                     </ul>
                                 </div>
                                 <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html"> Sofa</a><span
-                                        class="ps-product__price">$1250.00
-                                        <del>$725.00</del></span>
+                                                                    href="product-detail-1.html">Машмелло</a><span
+                                        class="ps-product__price"><del>20 000 000сум</del> 16 800 000сум</span>
                                 </div>
                             </div>
                         </div>
