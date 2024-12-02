@@ -470,12 +470,9 @@
 
     <div class="ps-section--big-collection">
         <div class="ps-container-fluid">
-            <div class="ps-collection--big"><img src="assets/images/collection/home-3/mashmello-large.jpg" alt="Mashmello от MySofa ">
-                <div class="ps-collection__content left">
-                    <h4>2024 <br> Collection</h4><a class="ps-btn ps-btn--outline" href="#">Купить</a>
-                </div>
-                <div class="ps-collection__content right">
-                    <h4>2025<br> Collection</h4><a class="ps-btn ps-btn--outline" href="#">Купить</a>
+            <div class="ps-collection--big"><img src="assets/images/collection/home-3/c1.jpg" alt="Mashmello от MySofa ">
+                <div class="ps-collection__content center">
+                <h4 class="text-white">2025 <br> Collection</h4><a class="ps-btn ps-btn--outline text-white" href="#">Смотреть</a>
                 </div>
             </div>
         </div>

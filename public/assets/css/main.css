@@ -4366,6 +4366,8 @@ textarea.form-control {
     transform: translateY(-50%);
     max-width: 300px;
     text-align: center; }
+.ps-collection--big .ps-collection__content.center {
+    left: 50%; }
 .ps-collection--big .ps-collection__content.left {
     left: 7%; }
 .ps-collection--big .ps-collection__content.right {
