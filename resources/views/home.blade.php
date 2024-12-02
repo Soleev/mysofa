@@ -17,7 +17,7 @@
                         data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                         data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/home-slider/home-3/banner.jpg" alt="" title="banner" width="1720"
+                        <img src="assets/images/home-slider/home-3/s1.jpg" alt="" title="banner" width="1720"
                              height="740" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                              class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
@@ -59,7 +59,7 @@
                         data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                         data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/home-slider/home-3/boca-home2.jpg" alt="" title="boca" width="1720"
+                        <img src="assets/images/home-slider/home-3/s2.jpg" alt="" title="boca" width="1720"
                              height="740" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                              class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
@@ -101,7 +101,7 @@
                         data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                         data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/home-slider/home-3/lema-cloud-home3.jpg" alt="" title="home-3-3" width="1720"
+                        <img src="assets/images/home-slider/home-3/s3.jpg" alt="" title="home-3-3" width="1720"
                              height="740" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                              class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->

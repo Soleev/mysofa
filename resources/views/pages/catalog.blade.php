@@ -109,7 +109,7 @@
                         <div class="grid-item__content-wrapper">
                             <div class="ps-collection--bottom">
                                 <a class="ps-collection__morelink" href="catalog/benches">Банкетки</a>
-                                <img class="ps-fullwidth" src="assets/images/shop/category-8.jpg" alt="Банкетки">
+                                <img class="ps-fullwidth" src="assets/images/shop/category-10.jpg" alt="Банкетки">
                             </div>
                         </div>
                     </div>
