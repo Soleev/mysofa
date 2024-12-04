@@ -18,7 +18,7 @@
                 <div class="ps-contact__detail">
                     <p><span>Адрес:</span>Сайрам 7 тупик, дом 50, Ташкент Узбекистан</p>
                     <p><span>Тел:</span>+998 99 8870955</p>
-                    <p><span>Email</span><a href="#">info@mysofa.uz/</a></p>
+                    <p><span>Email</span><a href="#">info@mysofa.uz</a></p>
                     <p><span>Часы работы</span>Пн - Пт : 9:00 - 18:00
                         <br> Сб - Вс : Закрыто</p>
                     <a href="https://g.page/r/CfGYrEUbt8UpEBM/review">Будем Вам благодарны за отзыв на Google</a>

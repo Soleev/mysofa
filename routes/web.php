@@ -25,5 +25,6 @@ Route::post('/products/logout', [PasswordProtectedPageController::class, 'logout
 Route::post('/products', [ProductController::class, 'store'])->name('products.store');
 
 Route::get('/catalog/{slug}', [ProductController::class, 'showByCategorySlug'])->name('catalog.pages');
+Route::get('/catalog/{category_slug}', [ProductController::class, 'showByCategorySlug'])->name('products.category');
 
-Route::get('/products/details', function () {return view('products.details');});
+Route::get('/catalog/{category_slug}/{product_slug}', [ProductController::class, 'showProduct'])->name('products.show');

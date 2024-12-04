@@ -2,146 +2,174 @@
 @section('title', 'MySofa - лучший выбор мебели для вашего интерьера.')
 @section('description', 'Компания по производству мягкой мебели премиум сегмента по вашим индивидуальным проектам')
 @section('content')
-    <div class="ps-container-fluid">
-        <div id="rev_slider_5_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="home-3"
-             data-source="gallery"
-             style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-            <!-- START REVOLUTION SLIDER 5.4.6.3.1 auto mode -->
-            <div id="rev_slider_5_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.6.3.1">
-                <ul>
-                    <!-- SLIDE  -->
-                    <li data-index="rs-18" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
-                        data-masterspeed="default" data-thumb="assets/images/home-slider/home-3/banner-100x50.jpg"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                        data-param9="" data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="assets/images/home-slider/home-3/s1.jpg" alt="" title="banner" width="1720"
-                             height="740" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                             class="rev-slidebg" data-no-retina>
-                        <!-- LAYERS -->
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption rev-btn " id="slide-18-layer-1"
-                             data-x="['center','center','center','center']" data-hoffset="['-476','-398','-274','-3']"
-                             data-y="['top','middle','middle','middle']" data-voffset="['366','36','4','26']"
-                             data-fontweight="['700','300','700','700']" data-width="none" data-height="none"
-                             data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
-                             data-responsive="off"
-                             data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bc:rgb(202,32,40);"}]'
-                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
-                             data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
-                             data-paddingleft="[45,45,45,45]"
-                             style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #000000; letter-spacing: px;
-                             font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(0,0,0);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                            Купить
-                        </div>
-                        <!-- LAYER NR. 2 -->
-                        <h2 class="tp-caption   tp-resizeme" id="slide-18-layer-2"
-                            data-x="['left','center','center','center']" data-hoffset="['0','-377','-263','1']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-79','-78','-95','-60']"
-                            data-fontsize="['70','70','60','50']" data-lineheight="['70','70','60','50']"
-                            data-fontweight="['200','300','300','300']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;text-align:center;">
-                            Beverly <br>
-                            <Arrivals>
-                        </h2>
-                    </li>
-                    <!-- SLIDE  -->
-                    <li data-index="rs-20" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
-                        data-masterspeed="default" data-thumb="assets/images/home-slider/home-3/home-3-2-100x50.jpg"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                        data-param9="" data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="assets/images/home-slider/home-3/s2.jpg" alt="" title="boca" width="1720"
-                             height="740" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                             class="rev-slidebg" data-no-retina>
-                        <!-- LAYERS -->
-                        <!-- LAYER NR. 3 -->
-                        <div class="tp-caption rev-btn " id="slide-20-layer-1"
-                             data-x="['center','left','center','center']" data-hoffset="['-476','94','-257','-3']"
-                             data-y="['top','middle','middle','middle']" data-voffset="['366','27','1','26']"
-                             data-fontweight="['700','300','700','700']" data-width="none" data-height="none"
-                             data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
-                             data-responsive="off"
-                             data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bc:rgb(202,32,40);"}]'
-                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
-                             data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
-                             data-paddingleft="[45,45,45,45]"
-                             style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #000000; letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(0,0,0);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                            Купить
-                        </div>
-                        <!-- LAYER NR. 4 -->
-                        <h2 class="tp-caption   tp-resizeme" id="slide-20-layer-2"
-                            data-x="['left','left','center','center']" data-hoffset="['0','30','-248','1']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-79','-80','-95','-60']"
-                            data-fontsize="['70','70','60','50']" data-lineheight="['70','70','60','50']"
-                            data-fontweight="['200','300','300','300']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;text-align:center;">
-                            B o c a <br>
-                            </Arrivals>
-                            <Collection>
-                        </h2>
-                    </li>
-                    <!-- SLIDE  -->
-                    <li data-index="rs-21" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
-                        data-masterspeed="default" data-thumb="assets/images/home-slider/home-3/home-3-4-100x50.jpg"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                        data-param9="" data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="assets/images/home-slider/home-3/s3.jpg" alt="" title="home-3-3" width="1720"
-                             height="740" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                             class="rev-slidebg" data-no-retina>
-                        <!-- LAYERS -->
-                        <!-- LAYER NR. 5 -->
-                        <div class="tp-caption rev-btn " id="slide-21-layer-1"
-                             data-x="['center','left','center','center']" data-hoffset="['-476','94','-257','-3']"
-                             data-y="['top','middle','middle','middle']" data-voffset="['366','27','1','26']"
-                             data-fontweight="['700','300','700','700']" data-width="none" data-height="none"
-                             data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
-                             data-responsive="off"
-                             data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bc:rgb(202,32,40);"}]'
-                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
-                             data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
-                             data-paddingleft="[45,45,45,45]"
-                             style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #000000; letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(0,0,0);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                            Купить
-                        </div>
-                        <!-- LAYER NR. 6 -->
-                        <h2 class="tp-caption   tp-resizeme" id="slide-21-layer-2"
-                            data-x="['left','left','center','center']" data-hoffset="['0','30','-248','1']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-79','-80','-95','-60']"
-                            data-fontsize="['70','70','60','50']" data-lineheight="['70','70','60','50']"
-                            data-fontweight="['200','300','300','300']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;text-align:center;">
-                            Lema Cloud <br>
-                            </Collection>
-                            <Footwear>
-                        </h2>
-                    </li>
-                    </Footwear>
-                </ul>
-                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-            </div>
+    <div class="ps-search">
+        <div class="ps-search__content"><a class="ps-search__close" href="#"><span></span></a>
+            <form class="ps-form--search-2" action="/" method="post">
+                <h3>Найдите мебель своей мечты</h3>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Введите ключевое слово для поиска...">
+                    <button class="ps-btn ps-btn--black ps-btn--fullwidth">Поиск</button>
+                </div>
+            </form>
         </div>
-        <!-- END REVOLUTION SLIDER -->
     </div>
+    <div id="rev_slider_3_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="home-1"
+         data-source="gallery" style="background:transparent;padding:0px;">
+        <!-- START REVOLUTION SLIDER 5.4.6.3.1 fullscreen mode -->
+        <div id="rev_slider_3_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.6.3.1">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-index="rs-7" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
+                    data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
+                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/027.jpg"
+                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
+                    data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="/assets/images/home-slider/home-1/027.jpg" alt="" title="slider-1" width="1920" height="980"
+                         data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                         class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption rev-btn " id="slide-7-layer-1" data-x="['left','left','left','left']"
+                         data-hoffset="['0','0','30','12']" data-y="['top','top','top','top']"
+                         data-voffset="['525','467','462','357']" data-width="none" data-height="none"
+                         data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off"
+                         data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bs:solid;bw:0 0 0 0;"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
+                         data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
+                         data-paddingleft="[45,45,45,45]"
+                         style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                        Shop Now
+                    </div>
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-7-layer-2" data-x="['left','left','left','left']"
+                         data-hoffset="['0','0','30','11']" data-y="['middle','middle','middle','middle']"
+                         data-voffset="['0','0','-103','-86']" data-fontsize="['60','60','50','40']" data-width="none"
+                         data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                         data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
+                        Frilled Sleeve Top
+                    </div>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-7-layer-3" data-x="['left','left','left','left']"
+                         data-hoffset="['3','-1','30','14']" data-y="['top','top','top','top']"
+                         data-voffset="['477','426','429','318']" data-width="none" data-height="none"
+                         data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                         data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
+                        Stock in physical stores
+                    </div>
+                </li>
+                <!-- SLIDE  -->
+                <li data-index="rs-10" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
+                    data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
+                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/026.jpg"
+                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
+                    data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="/assets/images/home-slider/home-1/026.jpg" alt="" title="home-1-2" width="1920" height="980"
+                         data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                         class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption rev-btn " id="slide-10-layer-1"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','-1','0']"
+                         data-y="['top','top','top','middle']" data-voffset="['525','525','512','50']" data-width="none"
+                         data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
+                         data-responsive="off"
+                         data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bs:solid;bw:0 0 0 0;"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
+                         data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
+                         data-paddingleft="[45,45,45,45]"
+                         style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                        Shop Now
+                    </div>
+                    <!-- LAYER NR. 5 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-10-layer-2"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-48','-48']"
+                         data-fontsize="['60','60','40','40']" data-width="none" data-height="none"
+                         data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                         data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
+                        Women Collection
+                    </div>
+                    <!-- LAYER NR. 6 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-10-layer-3"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','-1','-1']"
+                         data-y="['top','top','top','middle']" data-voffset="['477','477','469','0']"
+                         data-fontsize="['15','15','14','14']" data-width="none" data-height="none"
+                         data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                         data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
+                        THE MOST EDITORIAL PHOTOSHOOT GIRL
+                    </div>
+                </li>
+                <!-- SLIDE  -->
+                <li data-index="rs-12" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
+                    data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
+                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/013.jpg"
+                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
+                    data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="/assets/images/home-slider/home-1/013.jpg" alt="" title="home-1-3" width="1920" height="980"
+                         data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                         class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 7 -->
+                    <div class="tp-caption rev-btn " id="slide-12-layer-1"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','-1','0']"
+                         data-y="['top','top','top','top']" data-voffset="['525','525','500','380']" data-width="none"
+                         data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
+                         data-responsive="off"
+                         data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bs:solid;bw:0 0 0 0;"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
+                         data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
+                         data-paddingleft="[45,45,45,45]"
+                         style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                        Shop Now
+                    </div>
+                    <!-- LAYER NR. 8 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-12-layer-2"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-66','-55']"
+                         data-fontsize="['60','60','40','40']" data-width="none" data-height="none"
+                         data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                         data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
+                        Luxury Handbags
+                    </div>
+                    <!-- LAYER NR. 9 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-12-layer-3"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','-2','-2']"
+                         data-y="['top','top','top','middle']" data-voffset="['477','477','455','-8']" data-width="none"
+                         data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                         data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
+                        DISCOUNT ON EVERY NEW ORDERS
+                    </div>
+                </li>
+            </ul>
+            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+        </div>
+    </div>
+    <!-- END REVOLUTION SLIDER -->
+
     <div class="ps-home-3--collection">
         <div class="ps-container-fluid">
             <div class="masonry-wrapper" data-col-md="4" data-col-sm="2" data-col-xs="1" data-gap="0" data-radio="4:3">
@@ -470,9 +498,11 @@
 
     <div class="ps-section--big-collection">
         <div class="ps-container-fluid">
-            <div class="ps-collection--big"><img src="assets/images/collection/home-3/c1.jpg" alt="Mashmello от MySofa ">
+            <div class="ps-collection--big"><img src="assets/images/collection/home-3/c1.jpg"
+                                                 alt="Mashmello от MySofa ">
                 <div class="ps-collection__content center">
-                <h4 class="text-white">2025 <br> Collection</h4><a class="ps-btn ps-btn--outline text-white" href="#">Смотреть</a>
+                    <h4 class="text-white">2025 <br> Collection</h4><a class="ps-btn ps-btn--outline text-white"
+                                                                       href="#">Смотреть</a>
                 </div>
             </div>
         </div>
@@ -490,6 +520,14 @@
                      data-owl-duration="1000" data-owl-mousedrag="on"
                      data-owl-nav-left="&lt;i class='exist-leftarrow'&gt;&lt;/i&gt;"
                      data-owl-nav-right="&lt;i class='exist-rightarrow'&gt;&lt;/i&gt;">
+                    <a href="https://www.instagram.com/reel/DCWQzOoOFbA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                       target="_blank">
+                        <img src="assets/images/instagram/instagram-8.jpg" alt="instagram">
+                    </a>
+                    <a href="https://www.instagram.com/reel/DC_0YrCNcVK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                       target="_blank">
+                        <img src="assets/images/instagram/instagram-7.jpg" alt="instagram">
+                    </a>
                     <a href="https://www.instagram.com/reel/DBGSD6SOVI7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
                        target="_blank">
                         <img src="assets/images/instagram/instagram-6.jpg" alt="instagram">
@@ -510,6 +548,8 @@
                        target="_blank">
                         <img src="assets/images/instagram/instagram-3.jpg" alt="instagram">
                     </a>
+
+
                 </div>
             </div>
         </div>

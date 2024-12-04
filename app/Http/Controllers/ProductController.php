@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str; // Для работы с помощью Str::slug
+
 
 class ProductController extends Controller
 {
@@ -40,19 +42,25 @@ class ProductController extends Controller
             'size' => 'required',
             'price' => 'required|numeric',
             'category_id' => 'required|exists:categories,id',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:10000',
+            'images.*' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:10000',
         ]);
 
-        // Получаем данные из формы
-        $data = $request->all();
+        // Создаём продукт с автогенерацией слага
+        $product = Product::create([
+            'name' => $request->name,
+            'size' => $request->size,
+            'price' => $request->price,
+            'category_id' => $request->category_id,
+            'slug' => Str::slug($request->name), // Генерация slug из name
+        ]);
 
-        // Обработка изображения, если оно было загружено
-        if ($request->hasFile('image')) {
-            $data['image'] = $request->file('image')->store('products', 'public');
+        // Обработка изображений
+        if ($request->hasFile('images')) {
+            foreach ($request->file('images') as $image) {
+                $path = $image->store('products', 'public');
+                $product->images()->create(['image' => $path]);
+            }
         }
-
-        // Сохранение товара в базе данных
-        Product::create($data);
 
         // Редирект на страницу списка товаров с сообщением об успехе
         return redirect()->route('products.index')->with('success', 'Товар успешно добавлен.');
@@ -70,5 +78,17 @@ class ProductController extends Controller
         // Передаем категорию и товары в шаблон
         return view('products.category', compact('category', 'products'));
     }
+    public function showProduct($category_slug, $product_slug)
+    {
+        // Ищем категорию по slug
+        $category = Category::where('slug', $category_slug)->firstOrFail();
 
+        // Ищем товар по slug и категории
+        $product = Product::where('slug', $product_slug)
+            ->where('category_id', $category->id)
+            ->firstOrFail();
+
+        // Передаем данные в представление
+        return view('products.show', compact('category', 'product'));
+    }
 }

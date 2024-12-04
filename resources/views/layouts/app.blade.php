@@ -14,10 +14,8 @@
     <meta name="author" content="Shoxrux Soleyev">
     <title>@yield('title') | MySofa</title>
     <meta name="description" content="@yield('description')">
-
     <!-- Canonical URL -->
     <link rel="canonical" href="@yield('canonical', url()->current())">
-
     <!-- CSS Libraries -->
     <link href="{{ asset('/assets/plugins/fontawesome-free-6.6.0-web/css/all.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="/assets/plugins/exist-font/style.css">
@@ -32,6 +30,7 @@
     <link rel="stylesheet" href="/assets/plugins/revolution/css/settings.css">
     <link rel="stylesheet" href="/assets/plugins/revolution/css/layers.css">
     <link rel="stylesheet" href="/assets/plugins/revolution/css/navigation.css">
+    <link rel="stylesheet" href="/assets/css/sliders/slider-1.css">
     <link rel="stylesheet" href="/assets/css/sliders/slider-3.css">
     <!-- Custom Styles -->
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
@@ -50,68 +49,56 @@
     </script>
 </head>
 <body class="ps-loading">
-<header class="header header--3" data-sticky="true">
-    <div class="header__top">
+<header class="header header--1" data-sticky="true">
+    <nav class="navigation">
         <div class="ps-container-fluid">
-            <!--<div class="left">
-                <div class="btn-group ps-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"
-                                                      aria-haspopup="true" aria-expanded="false">Ру<i
-                            class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Русский</a></li>
-                        <li><a href="#">O'zbek</a></li>
-                        <li><a href="#">English</a></li>
-                    </ul>
-                </div>
-            </div> -->
-            <div class="center"><a class="ps-logo" href="/"><img src="/assets/images/logo.png" alt=""></a></div>
+            <div class="left"><a class="ps-logo" href="/"><img src="/assets/images/logo.png" alt=""></a></div>
+            <div class="center">
+                <ul class="menu">
+                    <li><a href="/catalog">Каталог</a></li>
+                    <li><a href="/about">О нас</a></li>
+                    <li><a href="/contacts">Контакты</a></li>
+                </ul>
+
+            </div>
             <div class="right">
                 <div class="menu-toggle"><span></span></div>
                 <ul class="header__actions">
                     <li><a class="ps-search-btn" href="#"><i class="exist-search"></i></a></li>
-                    <li><a href="#"><i class="exist-user"></i></a></li>
+                    <li class="header__user"><a href="#" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false" id="shopping-action"><i
+                                class="exist-user"></i></a>
+                        <ul class="dropdown-menu" aria-labelledby="shopping-action" id="shopping-action">
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Whishlist</a></li>
+                        </ul>
+                    </li>
                     <li class="header__cart"><a class="ps-shopping" href="#" data-toggle="dropdown"
                                                 aria-haspopup="true" aria-expanded="false" id="shopping-cart"><i
                                 class="exist-minicart"></i><span><i>0</i></span></a>
                         <ul class="dropdown-menu" aria-labelledby="shopping-cart" id="shopping-list">
-                            <li>
-                                <span class="ps-product--shopping-cart">
-                                    <a class="ps-product__thumbnail" href="product-detail.html">
-                                        <img src="/assets/images/cart/1.jpg" alt="">
-                                    </a>
-                                    <span class="ps-product__content">
-                                        <a class="ps-product__title" href="#">Диван Эндор</a>
-                                        <span class="ps-product__quantity">1 x <span>5 000 000</span></span></span>
-                                    <a class="ps-product__remove" href="#"><i class="fa fa-trash"></i>
-                                    </a>
-                                </span>
+                            <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail"
+                                                                           href="product-detail.html"><img
+                                            src="images/cart/1.jpg" alt=""></a><span class="ps-product__content"><a
+                                            class="ps-product__title" href="#">T-shirt blue with slogan</a><span
+                                            class="ps-product__quantity">1 x <span> $5250.00</span></span>
+                                    </span><a class="ps-product__remove" href="#"><i class="fa fa-trash"></i></a></span>
                             </li>
                             <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail"
                                                                            href="product-detail.html"><img
-                                            src="/assets/images/cart/2.jpg"
-                                            alt=""></a><span class="ps-product__content"><a
-                                            class="ps-product__title" href="#">Диван Lema Cloud</a><span
-                                            class="ps-product__quantity">1 x <span>
-                                                        5 000 000</span></span>
-                                            </span><a class="ps-product__remove" href="#"><i
-                                            class="fa fa-trash"></i></a></span>
+                                            src="images/cart/2.jpg" alt=""></a><span class="ps-product__content"><a
+                                            class="ps-product__title" href="#">T-shirt blue with slogan</a><span
+                                            class="ps-product__quantity">1 x <span> $5250.00</span></span>
+                                    </span><a class="ps-product__remove" href="#"><i class="fa fa-trash"></i></a></span>
                             </li>
                             <li class="total">
-                                <p>Всего: <span> 10 млн. сум</span></p><a class="ps-btn" href="#">В корзину</a>
+                                <p>Total: <span> $5250.00</span></p><a class="ps-btn" href="#">Go to cart</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
-    <nav class="navigation">
-        <div class="ps-container-fluid">
-            <ul class="menu">
-                <li><a href="/catalog">Каталог</a></li>
-                <li><a href="/about">О нас</a></li>
-                <li><a href="/contacts">Контакты</a></li>
-            </ul>
         </div>
     </nav>
 </header>
@@ -138,9 +125,12 @@
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
                 <ul class="ps-footer__social">
-                    <li><a href="https://www.instagram.com/my_sofa.uz/" target="_blank"><i class="fa-brands fa-instagram"></i>instagram</a></li>
-                    <li><a href="https://t.me/mysofa_uz" target="_blank"><i class="fa-brands fa-telegram"></i>telegram</a></li>
-                    <li><a href="https://www.facebook.com/Mysofa.uz/" target="_blank"><i class="fa-brands fa-facebook"></i>facebook</a></li>
+                    <li><a href="https://www.instagram.com/my_sofa.uz/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i>instagram</a></li>
+                    <li><a href="https://t.me/mysofa_uz" target="_blank"><i
+                                class="fa-brands fa-telegram"></i>telegram</a></li>
+                    <li><a href="https://www.facebook.com/Mysofa.uz/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i>facebook</a></li>
                 </ul>
             </div>
         </div>
@@ -180,6 +170,7 @@
 <script type="text/javascript"
         src="/assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
 <script src="/assets/js/slider_3.js"></script>
+<script src="/assets/js/slider_1.js"></script>
 
 </body>
 </html>

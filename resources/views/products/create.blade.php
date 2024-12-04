@@ -123,7 +123,7 @@
         <!-- Изображение товара -->
         <div class="form-group">
             <label for="image">Изображение</label>
-            <input type="file" name="image" class="form-control-file" id="image" accept=".jpg,.jpeg,.png"  required/>
+            <input type="file" name="images[]" class="form-control-file" id="images" multiple accept=".jpg,.jpeg,.png"  required/>
         </div>
         <!-- Кнопка отправки -->
         <button type="submit" class="btn btn-primary">Добавить товар</button>

@@ -82,8 +82,8 @@
                     <div class="grid-item large">
                         <div class="grid-item__content-wrapper">
                             <div class="ps-collection--bottom">
-                                <a class="ps-collection__morelink" href="catalog/collection-2024">Коллекция 2024</a>
-                                <img class="ps-fullwidth" src="assets/images/shop/category-11.jpg" alt="Коллекция 2024">
+                                <a class="ps-collection__morelink" href="catalog/collection-2024">Коллекция 2025</a>
+                                <img class="ps-fullwidth" src="assets/images/shop/collection25.jpg" alt="Коллекция 2024">
                             </div>
                         </div>
                     </div>
