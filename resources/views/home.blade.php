@@ -34,16 +34,16 @@
                     <div class="tp-caption rev-btn " id="slide-7-layer-1" data-x="['left','left','left','left']"
                          data-hoffset="['0','0','30','12']" data-y="['top','top','top','top']"
                          data-voffset="['525','467','462','357']" data-width="none" data-height="none"
-                         data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off"
+                         data-whitespace="nowrap" data-type="button"  data-responsive_offset="on" data-responsive="off"
                          data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bs:solid;bw:0 0 0 0;"}]'
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
                          data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
                          data-paddingleft="[45,45,45,45]"
                          style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                        Shop Now
+                        Посмотреть
                     </div>
                     <!-- LAYER NR. 2 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-7-layer-2" data-x="['left','left','left','left']"
+                    <div class="text-white tp-caption   tp-resizeme" id="slide-7-layer-2" data-x="['left','left','left','left']"
                          data-hoffset="['0','0','30','11']" data-y="['middle','middle','middle','middle']"
                          data-voffset="['0','0','-103','-86']" data-fontsize="['60','60','50','40']" data-width="none"
                          data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
@@ -51,7 +51,7 @@
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                          style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Frilled Sleeve Top
+                        Диван Quadro
                     </div>
                     <!-- LAYER NR. 3 -->
                     <div class="tp-caption   tp-resizeme" id="slide-7-layer-3" data-x="['left','left','left','left']"
@@ -88,7 +88,7 @@
                          data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
                          data-paddingleft="[45,45,45,45]"
                          style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                        Shop Now
+                        Посмотреть
                     </div>
                     <!-- LAYER NR. 5 -->
                     <div class="tp-caption   tp-resizeme" id="slide-10-layer-2"
@@ -100,7 +100,7 @@
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                          style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Women Collection
+                        Диван Quadro
                     </div>
                     <!-- LAYER NR. 6 -->
                     <div class="tp-caption   tp-resizeme" id="slide-10-layer-3"
@@ -112,7 +112,7 @@
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                          style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
-                        THE MOST EDITORIAL PHOTOSHOOT GIRL
+                        Сегментная Кровать
                     </div>
                 </li>
                 <!-- SLIDE  -->
@@ -138,7 +138,7 @@
                          data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
                          data-paddingleft="[45,45,45,45]"
                          style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                        Shop Now
+                        Посмотреть
                     </div>
                     <!-- LAYER NR. 8 -->
                     <div class="tp-caption   tp-resizeme" id="slide-12-layer-2"
@@ -150,7 +150,7 @@
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                          style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Luxury Handbags
+                        Диван Bravos
                     </div>
                     <!-- LAYER NR. 9 -->
                     <div class="tp-caption   tp-resizeme" id="slide-12-layer-3"
@@ -161,7 +161,7 @@
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                          style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
-                        DISCOUNT ON EVERY NEW ORDERS
+                        Размером 3,5*2,5 м.
                     </div>
                 </li>
             </ul>
@@ -170,6 +170,7 @@
     </div>
     <!-- END REVOLUTION SLIDER -->
 
+    <!--
     <div class="ps-home-3--collection">
         <div class="ps-container-fluid">
             <div class="masonry-wrapper" data-col-md="4" data-col-sm="2" data-col-xs="1" data-gap="0" data-radio="4:3">
@@ -216,6 +217,54 @@
             </div>
         </div>
     </div>
+    -->
+    <div class="ps-home-1--collection">
+        <div class="ps-container-fluid">
+            <div class="masonry-wrapper" data-col-md="4" data-col-sm="2" data-col-xs="1" data-gap="30" data-radio="4:3">
+                <div class="ps-masonry">
+                    <div class="grid-sizer"></div>
+                    <div class="grid-item large">
+                        <div class="grid-item__content-wrapper">
+                            <div class="ps-collection">
+                                <a class="ps-collection__morelink" href="/catalog/sofas">Диваны</a>
+                                <img class="ps-fullwidth" src="/assets/images/collection/home-1/1.jpg" alt="Диваны"></div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item__content-wrapper">
+                            <div class="ps-collection"><a class="ps-collection__morelink" href="/catalog/beds">Кровати</a><img
+                                    class="ps-fullwidth" src="/assets/images/collection/home-1/2.jpg" alt="Кровати"></div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item__content-wrapper">
+                            <div class="ps-collection">
+                                <a class="ps-collection__morelink" href="/catalog/poufs">Пуфы</a>
+                                <img class="ps-fullwidth" src="/assets/images/collection/home-1/3.jpg" alt="Пуфы">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item__content-wrapper">
+                            <div class="ps-collection">
+                                <a class="ps-collection__morelink" href="/catalog/armchairs">Кресла</a>
+                                <img class="ps-fullwidth" src="/assets/images/collection/home-1/4.jpg" alt="Кресла">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item__content-wrapper">
+                            <div class="ps-collection">
+                                <a class="ps-collection__morelink" href="/catalog/benches">Банкетки</a>
+                                <img class="ps-fullwidth" src="/assets/images/collection/home-1/5.jpg" alt="Банкетки">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="ps-section--home-3-featured-product">
         <div class="container">
             <div class="ps-section__header text-center">
@@ -293,10 +342,9 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                             <div class="ps-product--1" data-mh="product-item">
                                 <div class="ps-product__thumbnail">
-                                    <div class="ps-badge ps-badge--new"><span>New</span></div>
-                                    <div class="ps-badge ps-badge--sale-off ps-badge--2nd"><span>-25%</span></div>
+                                    <div class="ps-badge ps-badge--sale-off"><span>-20%</span></div>
                                     <img
-                                        src="assets/images/product/home-2/product-4.jpg" alt=""><a
+                                        src="assets/images/product/home-2/product-9.jpg" alt=""><a
                                         class="ps-btn ps-product__shopping" href="#"><i
                                             class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
@@ -307,17 +355,17 @@
                                     </ul>
                                 </div>
                                 <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html">Кушетка</a><span
-                                        class="ps-product__price">5 000 000<del>$725.00</del></span>
+                                                                    href="product-detail-1.html">Quadro</a><span
+                                        class="ps-product__price"><del>37 500 000</del>30 000 000</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                             <div class="ps-product--1" data-mh="product-item">
-                                <div class="ps-product__thumbnail"><img src="assets/images/product/home-2/product-5.jpg"
-                                                                        alt=""><a class="ps-btn ps-product__shopping"
-                                                                                  href="#"><i
-                                            class="exist-minicart"></i>Купить</a>
+                                <div class="ps-product__thumbnail">
+                                    <div class="ps-badge ps-badge--new"><span>Новинка</span></div>
+                                    <img src="assets/images/product/home-2/product-5.jpg" alt="">
+                                    <a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
                                         <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
                                         <li><a href="#" data-label="Сравнить"><i class="exist-compare"></i></a></li>

@@ -4047,7 +4047,7 @@ textarea.form-control {
 .ps-collection__morelink {
     display: inline-block;
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
