@@ -21,12 +21,12 @@
                 <!-- SLIDE  -->
                 <li data-index="rs-7" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
                     data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
-                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/027.jpg"
+                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/030.jpg"
                     data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
                     data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                     data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="/assets/images/home-slider/home-1/027.jpg" alt="" title="slider-1" width="1920" height="980"
+                    <img src="/assets/images/home-slider/home-1/030.jpg" alt="" title="slider-1" width="1920" height="980"
                          data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                          class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
@@ -43,7 +43,7 @@
                         Посмотреть
                     </div>
                     <!-- LAYER NR. 2 -->
-                    <div class="text-white tp-caption   tp-resizeme" id="slide-7-layer-2" data-x="['left','left','left','left']"
+                    <div class="tp-caption   tp-resizeme" id="slide-7-layer-2" data-x="['left','left','left','left']"
                          data-hoffset="['0','0','30','11']" data-y="['middle','middle','middle','middle']"
                          data-voffset="['0','0','-103','-86']" data-fontsize="['60','60','50','40']" data-width="none"
                          data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
@@ -51,7 +51,7 @@
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                          style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Диван Quadro
+                        Диван Circle
                     </div>
                     <!-- LAYER NR. 3 -->
                     <div class="tp-caption   tp-resizeme" id="slide-7-layer-3" data-x="['left','left','left','left']"
@@ -62,18 +62,18 @@
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                          style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Stock in physical stores
+                        Размер дивана 3,6×1,8×1,8
                     </div>
                 </li>
                 <!-- SLIDE  -->
                 <li data-index="rs-10" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
                     data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
-                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/026.jpg"
+                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/031.jpg"
                     data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
                     data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                     data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="/assets/images/home-slider/home-1/026.jpg" alt="" title="home-1-2" width="1920" height="980"
+                    <img src="/assets/images/home-slider/home-1/031.jpg" alt="" title="home-1-2" width="1920" height="980"
                          data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                          class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
@@ -100,7 +100,7 @@
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                          style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Диван Quadro
+                        Диван Lema
                     </div>
                     <!-- LAYER NR. 6 -->
                     <div class="tp-caption   tp-resizeme" id="slide-10-layer-3"
@@ -112,18 +112,18 @@
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                          style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Сегментная Кровать
+                        Произведение искусства
                     </div>
                 </li>
                 <!-- SLIDE  -->
                 <li data-index="rs-12" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
                     data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
-                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/013.jpg"
+                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/031.jpg"
                     data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
                     data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                     data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="/assets/images/home-slider/home-1/013.jpg" alt="" title="home-1-3" width="1920" height="980"
+                    <img src="/assets/images/home-slider/home-1/031.jpg" alt="" title="home-1-3" width="1920" height="980"
                          data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                          class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
@@ -161,7 +161,7 @@
                          data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                          style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Размером 3,5*2,5 м.
+                        Размер 3,5*2,5
                     </div>
                 </li>
             </ul>
