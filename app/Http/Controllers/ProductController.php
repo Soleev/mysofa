@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Http\Request;
-use Illuminate\Support\Str; // Для работы с помощью Str::slug
+use Illuminate\Support\Str;
+
+// Для работы с помощью Str::slug
 
 
 class ProductController extends Controller
@@ -46,13 +48,22 @@ class ProductController extends Controller
         ]);
 
         // Создаём продукт с автогенерацией слага
-        $product = Product::create([
-            'name' => $request->name,
-            'size' => $request->size,
-            'price' => $request->price,
-            'category_id' => $request->category_id,
-            'slug' => Str::slug($request->name), // Генерация slug из name
-        ]);
+        $data = $request->only(['name', 'size', 'price', 'category_id']); // Получаем только нужные поля из запроса
+
+        // Генерация slug из name
+        $slug = Str::slug($data['name']);
+        $uniqueSlug = $slug;
+        $count = 2;
+
+        // Проверяем уникальность slug
+        while (Product::where('slug', $uniqueSlug)->exists()) {
+            $uniqueSlug = $slug . '-' . $count++;
+        }
+        // Добавляем уникальный slug в данные
+        $data['slug'] = $uniqueSlug;
+
+        // Создаём продукт
+        $product = Product::create($data);
 
         // Обработка изображений
         if ($request->hasFile('images')) {
@@ -78,6 +89,7 @@ class ProductController extends Controller
         // Передаем категорию и товары в шаблон
         return view('products.category', compact('category', 'products'));
     }
+
     public function showProduct($category_slug, $product_slug)
     {
         // Ищем категорию по slug

@@ -29,25 +29,26 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
                     <div class="ps-product__thumbnail">
                         <div class="ps-product__images-large">
-                                @if ($product->images->isNotEmpty())
-                                    @foreach($product->images as $image)
-                                        <div class="item">
-                                            <img src="{{ asset('storage/' . $image->image) }}" alt="{{ $product->name }}">
-                                            <a class="ps-product__zoom single-image-popup" href="{{ asset('storage/' . $image->image) }}">
-                                                <i class="exist-zoom"></i>
-                                            </a>
-                                        </div>
-                                    @endforeach
-                                @else
-                                    <p>Изображение отсутствует</p>
-                                @endif
+                            @if ($product->images->isNotEmpty())
+                                @foreach($product->images as $image)
+                                    <div class="item">
+                                        <img src="{{ asset('storage/' . $image->image) }}" alt="{{ $product->name }}">
+                                        <a class="ps-product__zoom single-image-popup"
+                                           href="{{ asset('storage/' . $image->image) }}">
+                                            <i class="exist-zoom"></i>
+                                        </a>
+                                    </div>
+                                @endforeach
+                            @else
+                                <p>Изображение отсутствует</p>
+                            @endif
                         </div>
 
                         <div class="ps-product__nav">
                             @foreach($product->images as $image)
-                            <div class="item">
-                                <img src="{{ asset('storage/' . $image->image) }}" alt="{{ $product->name }}">
-                            </div>
+                                <div class="item">
+                                    <img src="{{ asset('storage/' . $image->image) }}" alt="{{ $product->name }}">
+                                </div>
                             @endforeach
                         </div>
                         <div class="clearfix"></div>
@@ -108,7 +109,9 @@
                                 <li><a href="#"><i class="exist-compare"></i>Сравнить</a></li>
                             </ul>
                             <p><strong>SKU:</strong>N/A</p>
-                            <p><strong>Категория:</strong><a href="/catalog/{{ $product->category->slug }}">{{ $product->category->name }}</a>,</p>
+                            <p><strong>Категория:</strong><a
+                                    href="/catalog/{{ $product->category->slug }}">{{ $product->category->name }}</a>,
+                            </p>
                         </div>
                         <div class="ps-product__divider"></div>
                         <p class="ps-product__sharing">Поделиться:<a href="#"><i class="fa fa-facebook"></i></a><a
@@ -304,7 +307,8 @@
             <form class="ps-form--subscribe-2" action="do_action" method="post">
                 <h3 class="ps-heading">Подпишитесь на рассылку новинок от MySofa!</h3>
                 <p class="text-left">Дорогие друзья!<br>
-                    Хотите первыми узнавать о наших новых коллекциях и специальных предложениях? Подписывайтесь на рассылку MySofa!
+                    Хотите первыми узнавать о наших новых коллекциях и специальных предложениях? Подписывайтесь на
+                    рассылку MySofa!
                     Мы будем присылать вам:<br>
                     Анонсы новых коллекций мебели<br>
                     Специальные акции и скидки<br>
