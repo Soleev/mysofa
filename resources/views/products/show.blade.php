@@ -8,7 +8,7 @@
                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 ">
                     <ol class="breadcrumb">
                         <li><a href="/">Главная</a></li>
-                        <li><a href="/catalog">Каталог</a></li>
+                        <li><a href="/catalog"> Каталог</a></li>
                         <li class="active">
                             <a href="/catalog/{{ $product->category->slug }}">{{ $product->category->name }}:</a>
                         </li>
@@ -29,14 +29,18 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
                     <div class="ps-product__thumbnail">
                         <div class="ps-product__images-large">
-                            @foreach($product->images as $image)
-                                <div class="item">
-                                    <img src="{{ asset('storage/' . $image->image) }}" alt="{{ $product->name }}">
-                                    <a class="ps-product__zoom single-image-popup" href="{{ asset('storage/' . $image->image) }}">
-                                        <i class="exist-zoom"></i>
-                                    </a>
-                                </div>
-                            @endforeach
+                                @if ($product->images->isNotEmpty())
+                                    @foreach($product->images as $image)
+                                        <div class="item">
+                                            <img src="{{ asset('storage/' . $image->image) }}" alt="{{ $product->name }}">
+                                            <a class="ps-product__zoom single-image-popup" href="{{ asset('storage/' . $image->image) }}">
+                                                <i class="exist-zoom"></i>
+                                            </a>
+                                        </div>
+                                    @endforeach
+                                @else
+                                    <p>Изображение отсутствует</p>
+                                @endif
                         </div>
 
                         <div class="ps-product__nav">

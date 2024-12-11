@@ -23,7 +23,8 @@
                             <div class="grid-item">
                                 <div class="grid-item__content-wrapper">
                                     <div class="ps-post--portfolio">
-                                        <div class="ps-post__thumbnail"><a class="ps-btn ps-post__morelink" href="{{ route('products.show', ['category_slug' => $category->slug, 'product_slug' => $product->slug]) }}">{{ $product->name }} Подробнее</a>
+                                        <div class="ps-post__thumbnail">
+                                            <a class="ps-btn ps-post__morelink" href="{{ route('products.show', ['category_slug' => $category->slug, 'product_slug' => $product->slug]) }}">{{ $product->name }} Подробнее</a>
                                             @if ($product->images->isNotEmpty())
                                                 <img src="{{ asset('storage/' . $product->images->first()->image) }}" alt="{{ $product->name }}">
                                             @else
