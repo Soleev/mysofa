@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', $category->name ?? 'Категория')
+@section('title', $product->name ." " . $category->name ?? 'Продукт')
 @section('description', $category->description ?? "Нет описания")
 @section('content')
     <div class="ps-breadcrumb ps-breadcrumb--2">

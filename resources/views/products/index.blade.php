@@ -115,7 +115,6 @@
             <div class="product-item">
                 <h2>Название: {{ $lastProduct->name }}</h2>
                 <p class="font-italic">Размер: {{ $lastProduct->size }}</p>
-                <img src="{{ asset('storage/' . $lastProduct->image) }}" alt="{{ $lastProduct->name }}">
                 @foreach($lastProduct->images as $image)
                     <img src="{{ asset('storage/' . $image->image) }}" alt="{{ $lastProduct->name }}">
                 @endforeach
