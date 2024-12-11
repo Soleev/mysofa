@@ -6,7 +6,12 @@ use Illuminate\Http\Request;
 
 class PasswordProtectedPageController extends Controller
 {
-    private $password = 'A2112!'; // Установите свой пароль здесь
+    private $password;
+
+    public function __construct()
+    {
+        $this->password = env('PASS_CREATE');
+    }
 
 // Отображение формы для ввода пароля
     public function showForm()
