@@ -23,7 +23,7 @@
                                     </ul>
                                 </div>
                                 <div class="ps-product__content">
-                                    <a class="ps-product__title" href="#</a>
+                                    <a class="ps-product__title" href="#"<h3>{{ $product->name }}</h3></a>
                                     <span class="ps-product__price">Цена: {{ number_format($product->price, 0, '.', ' ') }} сум</span>
                                 </div>
                         </div>
