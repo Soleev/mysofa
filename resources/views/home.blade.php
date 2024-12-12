@@ -14,40 +14,121 @@
         </div>
     </div>
     <!-- END REVOLUTION SLIDER -->
-    <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="home-2" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+    <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="home-2"
+         data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
         <!-- START REVOLUTION SLIDER 5.4.6.3.1 auto mode -->
         <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.6.3.1">
             <ul>
                 <!-- SLIDE  -->
-                <li data-index="rs-14" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default" data-masterspeed="default" data-thumb="/assets/images/home-slider/home-2/home-2-1-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                <li data-index="rs-14" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
+                    data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
+                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-2/home-2-1-100x50.jpg"
+                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                    data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="/assets/images/home-slider/home-2/121201.jpg" alt="" title="home-2-1" width="1920" height="720" data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <img src="/assets/images/home-slider/home-2/121201.jpg" alt="" title="home-2-1" width="1920"
+                         height="720" data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat"
+                         class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
                     <!-- LAYER NR. 1 -->
-                    <a href="/catalog/sofas/lourens"> <div class="tp-caption rev-btn " id="slide-14-layer-1" data-href="/catalog/sofas/lourens" data-x="['center','center','center','center']" data-hoffset="['5','0','1','0']" data-y="['top','middle','middle','middle']" data-voffset="['511','53','34','39']" data-fontweight="['700','300','700','700']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bc:rgb(202,32,40);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]" data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[45,45,45,45]" style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #867462; letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(134,116,98);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Купить </div></a>
+                    <a href="/catalog/sofas/lourens">
+                        <div class="tp-caption rev-btn " id="slide-14-layer-1" data-href="/catalog/sofas/lourens"
+                             data-x="['center','center','center','center']" data-hoffset="['5','0','1','0']"
+                             data-y="['top','middle','middle','middle']" data-voffset="['511','53','34','39']"
+                             data-fontweight="['700','300','700','700']" data-width="none" data-height="none"
+                             data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off"
+                             data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bc:rgb(202,32,40);"}]'
+                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
+                             data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
+                             data-paddingleft="[45,45,45,45]"
+                             style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #867462; letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(134,116,98);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                            Купить </div>
+                    </a>
                     <!-- LAYER NR. 2 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-14-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','1']" data-y="['middle','middle','middle','middle']" data-voffset="['0','-70','-65','-60']" data-fontsize="['140','100','60','60']" data-lineheight="['140','100','60','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 140px; line-height: 140px; font-weight: 800; color: #867462; letter-spacing: 0px;font-family:Nunito Sans;">Лоуренс </div>
+                    <div class="tp-caption   tp-resizeme" id="slide-14-layer-2"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','1']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','-70','-65','-60']"
+                         data-fontsize="['140','100','60','60']" data-lineheight="['140','100','60','60']" data-width="none"
+                         data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                         data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 6; white-space: nowrap; font-size: 140px; line-height: 140px; font-weight: 800; color: #867462; letter-spacing: 0px;font-family:Nunito Sans;">
+                        Лоуренс </div>
                     <!-- LAYER NR. 3 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-14-layer-3" data-x="['center','center','center','center']" data-hoffset="['7','0','2','0']" data-y="['middle','middle','middle','middle']" data-voffset="['108','0','-12','-9']" data-fontsize="['50','35','25','18']" data-lineheight="['50','35','25','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 800; color: #867462; letter-spacing: 0px;font-family:Nunito Sans;">Диван для большого зала </div>
+                    <div class="tp-caption   tp-resizeme" id="slide-14-layer-3"
+                         data-x="['center','center','center','center']" data-hoffset="['7','0','2','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['108','0','-12','-9']"
+                         data-fontsize="['50','35','25','18']" data-lineheight="['50','35','25','20']" data-width="none"
+                         data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                         data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 7; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 800; color: #867462; letter-spacing: 0px;font-family:Nunito Sans;">
+                        Диван для большого зала </div>
                 </li>
                 <!-- SLIDE  -->
-                <li data-index="rs-17" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default" data-masterspeed="default" data-thumb="/assets/images/home-slider/home-2/home-2-3-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                <li data-index="rs-17" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
+                    data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
+                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-2/home-2-3-100x50.jpg"
+                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                    data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="/assets/images/home-slider/home-2/121202.jpg" alt="" title="home-2-3" width="1920" height="720" data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <img src="/assets/images/home-slider/home-2/121202.jpg" alt="" title="home-2-3" width="1920"
+                         height="720" data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat"
+                         class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
                     <!-- LAYER NR. 4 -->
-                    <a href="/catalog/sofas/rotondo"> <div class="tp-caption rev-btn " id="slide-17-layer-1" data-href="https://example.com" data-x="['center','center','center','center']" data-hoffset="['2','0','1','0']" data-y="['top','middle','middle','middle']" data-voffset="['501','53','34','39']" data-fontweight="['700','300','700','700']" data-color="['rgb(117,117,110)','rgb(134,116,98)','rgb(134,116,98)','rgb(134,116,98)']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bc:rgb(202,32,40);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]" data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[45,45,45,45]" style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #75756e; letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(117,117,110);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Купить </div></a>
+                    <a href="/catalog/sofas/rotondo">
+                        <div class="tp-caption rev-btn " id="slide-17-layer-1" data-href="https://example.com"
+                             data-x="['center','center','center','center']" data-hoffset="['2','0','1','0']"
+                             data-y="['top','middle','middle','middle']" data-voffset="['501','53','34','39']"
+                             data-fontweight="['700','300','700','700']"
+                             data-color="['rgb(117,117,110)','rgb(134,116,98)','rgb(134,116,98)','rgb(134,116,98)']"
+                             data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
+                             data-responsive_offset="on" data-responsive="off"
+                             data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bc:rgb(202,32,40);"}]'
+                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
+                             data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
+                             data-paddingleft="[45,45,45,45]"
+                             style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #75756e; letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(117,117,110);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                            Купить </div>
+                    </a>
                     <!-- LAYER NR. 5 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-17-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','1']" data-y="['middle','middle','middle','middle']" data-voffset="['0','-70','-65','-60']" data-fontsize="['140','100','60','60']" data-lineheight="['140','100','60','60']" data-color="['rgb(117,117,110)','rgb(134,116,98)','rgb(134,116,98)','rgb(134,116,98)']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 140px; line-height: 140px; font-weight: 800; color: #75756e; letter-spacing: 0px;font-family:Nunito Sans;">Ротондо </div>
+                    <div class="tp-caption   tp-resizeme" id="slide-17-layer-2"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','1']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','-70','-65','-60']"
+                         data-fontsize="['140','100','60','60']" data-lineheight="['140','100','60','60']"
+                         data-color="['rgb(117,117,110)','rgb(134,116,98)','rgb(134,116,98)','rgb(134,116,98)']"
+                         data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                         data-responsive_offset="on"
+                         data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 6; white-space: nowrap; font-size: 140px; line-height: 140px; font-weight: 800; color: #75756e; letter-spacing: 0px;font-family:Nunito Sans;">
+                        Ротондо </div>
                     <!-- LAYER NR. 6 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-17-layer-3" data-x="['center','center','center','center']" data-hoffset="['7','0','2','0']" data-y="['middle','middle','middle','middle']" data-voffset="['98','0','-12','-9']" data-fontsize="['50','35','25','18']" data-lineheight="['50','35','25','20']" data-color="['rgb(117,117,110)','rgb(134,116,98)','rgb(134,116,98)','rgb(134,116,98)']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 800; color: #75756e; letter-spacing: 0px;font-family:Nunito Sans;">Подчеркнёт красоту комнаты </div>
+                    <div class="tp-caption   tp-resizeme" id="slide-17-layer-3"
+                         data-x="['center','center','center','center']" data-hoffset="['7','0','2','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['98','0','-12','-9']"
+                         data-fontsize="['50','35','25','18']" data-lineheight="['50','35','25','20']"
+                         data-color="['rgb(117,117,110)','rgb(134,116,98)','rgb(134,116,98)','rgb(134,116,98)']"
+                         data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                         data-responsive_offset="on"
+                         data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 7; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 800; color: #75756e; letter-spacing: 0px;font-family:Nunito Sans;">
+                        Подчеркнёт красоту комнаты </div>
                 </li>
             </ul>
             <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
         </div>
     </div>
     <!-- END REVOLUTION SLIDER -->
-    
+
     <div class="ps-home-1--collection">
         <div class="ps-container-fluid">
             <div class="masonry-wrapper" data-col-md="4" data-col-sm="2" data-col-xs="1" data-gap="30" data-radio="4:3">
@@ -57,13 +138,15 @@
                         <div class="grid-item__content-wrapper">
                             <div class="ps-collection">
                                 <a class="ps-collection__morelink" href="/catalog/sofas">Диваны</a>
-                                <img class="ps-fullwidth" src="/assets/images/collection/home-1/1.jpg" alt="Диваны"></div>
+                                <img class="ps-fullwidth" src="/assets/images/collection/home-1/1.jpg" alt="Диваны">
+                            </div>
                         </div>
                     </div>
                     <div class="grid-item">
                         <div class="grid-item__content-wrapper">
-                            <div class="ps-collection"><a class="ps-collection__morelink" href="/catalog/beds">Кровати</a><img
-                                    class="ps-fullwidth" src="/assets/images/collection/home-1/2.jpg" alt="Кровати"></div>
+                            <div class="ps-collection"><a class="ps-collection__morelink"
+                                                          href="/catalog/beds">Кровати</a><img class="ps-fullwidth"
+                                                                                               src="/assets/images/collection/home-1/2.jpg" alt="Кровати"></div>
                         </div>
                     </div>
                     <div class="grid-item">
@@ -99,7 +182,8 @@
         <div class="container">
             <div class="ps-section__header text-center">
                 <ul class="tab-list" role="tablist">
-                    <li class="active"><a href="#tab_01" aria-controls="tab_01" role="tab" data-toggle="tab">Новинки</a>
+                    <li class="active">
+                        <a href="#tab_01" aria-controls="tab_01" role="tab" data-toggle="tab">Новинки</a>
                     </li>
                     <li><a href="#tab_02" aria-controls="tab_02" role="tab" data-toggle="tab">Хиты</a></li>
                     <li><a href="#tab_03" aria-controls="tab_03" role="tab" data-toggle="tab">Классика</a></li>
@@ -113,38 +197,35 @@
                                 <div class="ps-product__thumbnail">
                                     <div class="ps-badge ps-badge--hot"><span>hot</span></div>
                                     <div class="ps-badge ps-badge--sale-off ps-badge--2nd"><span>-25%</span></div>
-                                    <img
-                                        src="assets/images/product/home-2/product-1.jpg" alt=""><a
-                                        class="ps-btn ps-product__shopping" href="#"><i
-                                            class="exist-minicart"></i>Купить</a>
+                                    <img src="assets/images/product/home-2/freeman.jpg" alt="Диван Фримэн">
+                                    <a class="ps-btn ps-product__shopping" href="#">
+                                        <i class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
                                         <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
                                         <li><a href="#" data-label="Сравнить"><i class="exist-compare"></i></a></li>
-                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i
-                                                    class="exist-quickview"></i></a></li>
+                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"> <i class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="ps-product__content">
-                                    <a class="ps-product__title" href="product-detail-1.html">Лема</a>
-                                    <span class="ps-product__price">17 000 000сум</span>
+                                    <a class="ps-product__title" href="/catalog/sofas/frimen">Диван Фримэн</a>
+                                    <span class="ps-product__price">29 000 000 сум</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                             <div class="ps-product--1" data-mh="product-item">
                                 <div class="ps-product__thumbnail">
-                                    <img src="assets/images/product/home-2/product-2.jpg" alt="">
+                                    <img src="assets/images/product/home-2/egoist.jpg" alt="Кресло Эгоист">
                                     <a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
                                         <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
                                         <li><a href="#" data-label="Сравнить"><i class="exist-compare"></i></a></li>
-                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i
-                                                    class="exist-quickview"></i></a></li>
+                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="ps-product__content">
-                                    <a class="ps-product__title" href="product-detail-1.html">Дувэт</a>
-                                    <span class="ps-product__price">32 000 000сум</span>
+                                    <a class="ps-product__title" href="/catalog/armchairs/egoist">Кресло Эгоист</a>
+                                    <span class="ps-product__price">7 000 000 сум</span>
                                 </div>
                             </div>
                         </div>
@@ -152,20 +233,17 @@
                             <div class="ps-product--1" data-mh="product-item">
                                 <div class="ps-product__thumbnail">
                                     <div class="ps-badge ps-badge--new"><span>Новинка</span></div>
-                                    <img
-                                        src="assets/images/product/home-2/product-3.jpg" alt=""><a
-                                        class="ps-btn ps-product__shopping" href="#"><i
-                                            class="exist-minicart"></i>Купить</a>
+                                    <img src="assets/images/product/home-2/rotondo2.jpg" alt="Ротондо">
+                                    <a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
                                         <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
                                         <li><a href="#" data-label="Сравнить"><i class="exist-compare"></i></a></li>
-                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i
-                                                    class="exist-quickview"></i></a></li>
+                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i сlass="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html"> Бейма </a><span
-                                        class="ps-product__price">6 680 000сум</span>
+                                <div class="ps-product__content">
+                                    <a class="ps-product__title" href="/catalog/sofas/rotondo">Диван Ротондо</a>
+                                    <span class="ps-product__price">29 000 000 сум</span>
                                 </div>
                             </div>
                         </div>
@@ -173,20 +251,17 @@
                             <div class="ps-product--1" data-mh="product-item">
                                 <div class="ps-product__thumbnail">
                                     <div class="ps-badge ps-badge--sale-off"><span>-20%</span></div>
-                                    <img
-                                        src="assets/images/product/home-2/product-9.jpg" alt=""><a
-                                        class="ps-btn ps-product__shopping" href="#"><i
-                                            class="exist-minicart"></i>Купить</a>
+                                    <img src="assets/images/product/home-2/minilourens.jpg" alt="Диван Мини Лоуренс">
+                                    <a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
                                         <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
                                         <li><a href="#" data-label="Сравнить"><i class="exist-compare"></i></a></li>
-                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i
-                                                    class="exist-quickview"></i></a></li>
+                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html">Quadro</a><span
-                                        class="ps-product__price"><del>37 500 000</del>30 000 000</span>
+                                <div class="ps-product__content">
+                                    <a class="ps-product__title" href="/catalog/sofas/mini-lourens">Диван Мини Лоуренс</a>
+                                    <span class="ps-product__price"><del>30 500 000</del>25 000 000</span>
                                 </div>
                             </div>
                         </div>
@@ -194,37 +269,34 @@
                             <div class="ps-product--1" data-mh="product-item">
                                 <div class="ps-product__thumbnail">
                                     <div class="ps-badge ps-badge--new"><span>Новинка</span></div>
-                                    <img src="assets/images/product/home-2/product-5.jpg" alt="">
+                                    <img src="assets/images/product/home-2/moon.jpg" alt="Кресло Мун">
                                     <a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
                                         <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
                                         <li><a href="#" data-label="Сравнить"><i class="exist-compare"></i></a></li>
-                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i
-                                                    class="exist-quickview"></i></a></li>
+                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html">Эндор</a><span
-                                        class="ps-product__price"><del>15 000 000сум</del> 11 000 000сум</span>
+                                <div class="ps-product__content">
+                                    <a class="ps-product__title" href="/catalog/armchairs/mun">Кресло Мун</a>
+                                    <span class="ps-product__price"><del>10 000 000сум</del> 7 000 000сум</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                             <div class="ps-product--1" data-mh="product-item">
-                                <div class="ps-product__thumbnail"><img src="assets/images/product/home-2/product-6.jpg"
-                                                                        alt=""><a class="ps-btn ps-product__shopping"
-                                                                                  href="#"><i
-                                            class="exist-minicart"></i>Купить</a>
+                                <div class="ps-product__thumbnail">
+                                    <img src="assets/images/product/home-2/goodmen2.jpg" alt="Диван Гудмэн">
+                                    <a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
                                         <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
                                         <li><a href="#" data-label="Сравнить"><i class="exist-compare"></i></a></li>
-                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i
-                                                    class="exist-quickview"></i></a></li>
+                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html">Машмелло</a><span
-                                        class="ps-product__price"><del>20 000 000сум</del> 16 800 000сум</span>
+                                <div class="ps-product__content">
+                                    <a class="ps-product__title" href="/catalog/sofas/gudmen">Диван Гудмэн</a>
+                                    <span class="ps-product__price"><del>30 000 000сум</del> 23 000 000 сум</span>
                                 </div>
                             </div>
                         </div>
@@ -237,8 +309,7 @@
                                 <div class="ps-product__thumbnail">
                                     <div class="ps-badge ps-badge--hot"><span>hot</span></div>
                                     <div class="ps-badge ps-badge--sale-off ps-badge--2nd"><span>-25%</span></div>
-                                    <img
-                                        src="assets/images/product/home-2/product-1.jpg" alt=""><a
+                                    <img src="assets/images/product/home-2/product-1.jpg" alt=""><a
                                         class="ps-btn ps-product__shopping" href="#"><i
                                             class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
@@ -248,18 +319,16 @@
                                                     class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html"> Sofa</a><span
-                                        class="ps-product__price">5 000
-                                        000</span>
+                                <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html">
+                                        Sofa</a><span class="ps-product__price">5 000
+                                    000</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                             <div class="ps-product--1" data-mh="product-item">
                                 <div class="ps-product__thumbnail"><img src="assets/images/product/home-2/product-2.jpg"
-                                                                        alt=""><a class="ps-btn ps-product__shopping"
-                                                                                  href="#"><i
+                                                                        alt=""><a class="ps-btn ps-product__shopping" href="#"><i
                                             class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
                                         <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
@@ -268,9 +337,8 @@
                                                     class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html"> Square </a><span
-                                        class="ps-product__price">$1250.00</span>
+                                <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html">
+                                        Square </a><span class="ps-product__price">$1250.00</span>
                                 </div>
                             </div>
                         </div>
@@ -278,8 +346,7 @@
                             <div class="ps-product--1" data-mh="product-item">
                                 <div class="ps-product__thumbnail">
                                     <div class="ps-badge ps-badge--new"><span>New</span></div>
-                                    <img
-                                        src="assets/images/product/home-2/product-3.jpg" alt=""><a
+                                    <img src="assets/images/product/home-2/product-3.jpg" alt=""><a
                                         class="ps-btn ps-product__shopping" href="#"><i
                                             class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
@@ -289,10 +356,9 @@
                                                     class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html"> Velvet </a><span
-                                        class="ps-product__price">5 000
-                                        000</span>
+                                <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html">
+                                        Velvet </a><span class="ps-product__price">5 000
+                                    000</span>
                                 </div>
                             </div>
                         </div>
@@ -301,8 +367,7 @@
                                 <div class="ps-product__thumbnail">
                                     <div class="ps-badge ps-badge--new"><span>New</span></div>
                                     <div class="ps-badge ps-badge--sale-off ps-badge--2nd"><span>-25%</span></div>
-                                    <img
-                                        src="assets/images/product/home-2/product-4.jpg" alt=""><a
+                                    <img src="assets/images/product/home-2/product-4.jpg" alt=""><a
                                         class="ps-btn ps-product__shopping" href="#"><i
                                             class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
@@ -312,11 +377,10 @@
                                                     class="exist-quickview"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html"> Square </a><span
-                                        class="ps-product__price">5 000
-                                        000
-                                        <del>$725.00</del></span>
+                                <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html">
+                                        Square </a><span class="ps-product__price">5 000
+                                    000
+                                    <del>$725.00</del></span>
                                 </div>
                             </div>
                         </div>
@@ -329,8 +393,7 @@
                                 <div class="ps-product__thumbnail">
                                     <div class="ps-badge ps-badge--hot"><span>hot</span></div>
                                     <div class="ps-badge ps-badge--sale-off ps-badge--2nd"><span>-25%</span></div>
-                                    <img
-                                        src="assets/images/product/home-2/product-1.jpg" alt=""><a
+                                    <img src="assets/images/product/home-2/product-1.jpg" alt=""><a
                                         class="ps-btn ps-product__shopping" href="#"><i
                                             class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
@@ -341,17 +404,15 @@
                                     </ul>
                                 </div>
                                 <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html">Slogan</a><span
-                                        class="ps-product__price">5 000
-                                        000</span>
+                                                                    href="product-detail-1.html">Slogan</a><span class="ps-product__price">5 000
+                                    000</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                             <div class="ps-product--1" data-mh="product-item">
                                 <div class="ps-product__thumbnail"><img src="assets/images/product/home-2/product-2.jpg"
-                                                                        alt=""><a class="ps-btn ps-product__shopping"
-                                                                                  href="#"><i
+                                                                        alt=""><a class="ps-btn ps-product__shopping" href="#"><i
                                             class="exist-minicart"></i>Купить</a>
                                     <ul class="ps-product__actions">
                                         <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
@@ -361,9 +422,8 @@
                                     </ul>
                                 </div>
                                 <div class="ps-product__content"><a class="ps-product__title"
-                                                                    href="product-detail-1.html">White</a><span
-                                        class="ps-product__price">10 000
-                                        000</span>
+                                                                    href="product-detail-1.html">White</a><span class="ps-product__price">10 000
+                                    000</span>
                                 </div>
                             </div>
                         </div>
@@ -376,8 +436,7 @@
 
     <div class="ps-section--big-collection">
         <div class="ps-container-fluid">
-            <div class="ps-collection--big"><img src="assets/images/collection/home-3/c1.jpg"
-                                                 alt="Mashmello от MySofa ">
+            <div class="ps-collection--big"><img src="assets/images/collection/home-3/c1.jpg" alt="Mashmello от MySofa ">
                 <div class="ps-collection__content center">
                     <h4 class="text-white">2025 <br> Collection</h4><a class="ps-btn ps-btn--outline text-white"
                                                                        href="#">Смотреть</a>
@@ -521,8 +580,8 @@
                                 <div class="ps-product__divider"></div>
                                 <div class="ps-product__shopping">
                                     <div class="form-group form-group--number">
-                                        <input class="form-control" type="text" value="1"><span
-                                            class="down">-</span><span class="up">+</span>
+                                        <input class="form-control" type="text" value="1"><span class="down">-</span><span
+                                            class="up">+</span>
                                     </div>
                                     <button class="ps-btn ps-btn--black"><i class="exist-minicart mr-5"></i>
                                         Купить
