@@ -13,7 +13,7 @@
             </form>
         </div>
     </div>
-    <!-- END REVOLUTION SLIDER -->
+
     <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="home-2"
          data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
         <!-- START REVOLUTION SLIDER 5.4.6.3.1 auto mode -->
