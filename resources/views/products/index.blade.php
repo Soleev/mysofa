@@ -2,10 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="mobile-web-app-capable" content="yes">
     <!-- Favicon and Apple Touch Icon -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="icon" href="/favicon.png">
@@ -30,100 +27,111 @@
 
 </head>
 <body class="ps-loading">
-<header class="header header--3" data-sticky="true">
-    <div class="header__top">
-        <div class="ps-container-fluid">
-            <div class="center"><a class="ps-logo" href="/">
-                    <img src="/assets/images/logo.png" alt=""></a>
-            </div>
-            <div class="right">
-                <div class="menu-toggle"><span></span></div>
-                <ul class="header__actions">
-                    <li><a class="ps-search-btn" href="#"><i class="exist-search"></i></a></li>
-                    <li><a href="#"><i class="exist-user"></i></a></li>
-                    <li class="header__cart"><a class="ps-shopping" href="#" data-toggle="dropdown"
-                                                aria-haspopup="true" aria-expanded="false" id="shopping-cart"><i
-                                class="exist-minicart"></i><span><i>0</i></span></a>
-                        <ul class="dropdown-menu" aria-labelledby="shopping-cart" id="shopping-list">
-                            <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail"
-                                                                           href="product-detail.html"><img
-                                            src="/assets/images/cart/1.jpg"
-                                            alt=""></a><span class="ps-product__content"><a
-                                            class="ps-product__title" href="#">Диван Эндор</a><span
-                                            class="ps-product__quantity">1 x <span>
-                                                        5 000 000</span></span>
-                                            </span><a class="ps-product__remove" href="#"><i
-                                            class="fa fa-trash"></i></a></span>
-                            </li>
-                            <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail"
-                                                                           href="product-detail.html"><img
-                                            src="/assets/images/cart/2.jpg"
-                                            alt=""></a><span class="ps-product__content"><a
-                                            class="ps-product__title" href="#">Диван Lema Cloud</a><span
-                                            class="ps-product__quantity">1 x <span>
-                                                        5 000 000</span></span>
-                                            </span><a class="ps-product__remove" href="#"><i
-                                            class="fa fa-trash"></i></a></span>
-                            </li>
-                            <li class="total">
-                                <p>Всего: <span> 10 млн. сум</span></p><a class="ps-btn" href="#">В корзину</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+<header class="header header--1" data-sticky="true">
     <nav class="navigation">
         <div class="ps-container-fluid">
-            <ul class="menu">
-                <li><a href="/catalog">Каталог</a></li>
-                <li><a href="/about">О нас</a></li>
-                <li><a href="/contacts">Контакты</a></li>
-            </ul>
+            <div class="left"><a class="ps-logo" href="/"><img src="/assets/images/logo.png" alt=""></a></div>
+            <div class="center">
+                <ul class="menu">
+                    <li><a href="/catalog">Каталог</a></li>
+                    <li><a href="/about">О нас</a></li>
+                    <li><a href="/contacts">Контакты</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
 <!-- Основной контент -->
-    <div class="container">
-        <button type="submit" class="btn btn-primary"><a href="/products/create">Добавить товар</a></button>
-        <!-- Кнопка выхода -->
-        <button class="btn btn-danger"><a href="#" onclick="logout();">Выйти</a></button>
-
-        <form id="logout-form" action="{{ route('products.password.logout') }}" method="POST" style="display: none;">
-            @csrf
-        </form>
-
-        <script>
-            function logout() {
-                var form = document.getElementById('logout-form');
-                if (form) {
-                    form.submit();
-                } else {
-                    console.error('Форма выхода не найдена');
-                }
-            }
-        </script>
-        <div class="ps-breadcrumb ps-breadcrumb--3">
-            <div class="ps-container-fluid"></div>
+<div class="container">
+    @if(session('success'))
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ session('success') }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
-        @php
-            $lastProduct = $products->last();
-        @endphp
+    @endif
 
-        @if($lastProduct)
-            <div class="product-item">
-                <h2>Название: {{ $lastProduct->name }}</h2>
-                <p class="font-italic">Размер: {{ $lastProduct->size }}</p>
-                @foreach($lastProduct->images as $image)
-                    <img src="{{ asset('storage/' . $image->image) }}" alt="{{ $lastProduct->name }}">
-                @endforeach
-                <h3>Цена: {{ number_format($lastProduct->price, 0, '.', ' ') }} сум</h3>
-            </div>
-        @endif
+    @if(session('error'))
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            {{ session('error') }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    @endif
 
+    <button type="submit" class="btn btn-primary"><a href="/products/create">Добавить товар</a></button>
+    <!-- Кнопка выхода -->
+    <button class="btn btn-danger"><a href="#" onclick="logout();">Выйти</a></button>
+
+    <form id="logout-form" action="{{ route('products.password.logout') }}" method="POST" style="display: none;">
+        @csrf
+    </form>
+
+    <script>
+        function logout() {
+            var form = document.getElementById('logout-form');
+            if (form) {
+                form.submit();
+            } else {
+                console.error('Форма выхода не найдена');
+            }
+        }
+    </script>
+    <div class="clearfix"></div>
+    @php
+        $lastProduct = $products->first();
+    @endphp
+
+    @if($lastProduct)
+        <div class="product-item">
+            <h2>Название: {{ $lastProduct->name }}</h2>
+            <p class="font-italic">Размер: {{ $lastProduct->size }}</p>
+            @foreach($lastProduct->images as $image)
+                <img style="width: 100px" src="{{ asset('storage/' . $image->image) }}" alt="{{ $lastProduct->name }}">
+            @endforeach
+            <h3>Цена: {{ number_format($lastProduct->price, 0, '.', ' ') }} сум</h3>
+        </div>
+    @endif
+
+    <div class="container mt-4">
+        <h2>Список всех товаров</h2>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Название</th>
+                <th>Категория</th>
+                <th>Размер</th>
+                <th>Цена</th>
+                <th>Действия</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach($products as $product)
+                <tr>
+                    <td>{{ $product->id }}</td> <!-- Вывод ID вместо номера -->
+                    <td>{{ $product->name }}</td>
+                    <td>{{ $product->category->name }}</td>
+                    <td>{{ $product->size ?? 'Не указан' }}</td> <!-- Вывод размера -->
+                    <td>{{ number_format($product->price, 0, '.', ' ') }} сум</td>
+                    <td>
+                        <a href="{{ route('products.edit', $product->id) }}" class="btn btn-warning btn-sm">Просмотреть/Исправить</a>
+                        <form action="{{ route('products.destroy', $product->id) }}" method="POST" style="display:inline;">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Вы уверены?')">Удалить</button>
+                        </form>
+                    </td>
+                </tr>
+            @endforeach
+            </tbody>
+        </table>
     </div>
 
+
+</div>
 
 
 <!-- Подвал сайта -->

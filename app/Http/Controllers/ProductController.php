@@ -19,9 +19,11 @@ class ProductController extends Controller
             return redirect()->route('products.password.form');
         }
         // Отображение страницы создания продукта, если проверка пройдена
-        $products = Product::all();
+        $products = Product::with('category')->orderBy('created_at', 'desc')->get();
         return view('products.index', compact('products'));
+
     }
+
 
     // Отображение формы для добавления товара
     public function create()
@@ -33,6 +35,59 @@ class ProductController extends Controller
         // Отображение страницы создания продукта, если проверка пройдена
         $categories = Category::all(); // Получаем все категории для выбора
         return view('products.create', compact('categories'));
+    }
+
+    public function edit($id)
+    {
+        // Проверка, был ли введён правильный пароль
+        if (!session('password_protected')) {
+            return redirect()->route('products.password.form');
+        }
+        $product = Product::findOrFail($id);
+        $categories = Category::all();
+        return view('products.edit', compact('product', 'categories'));
+    }
+
+    public function update(Request $request, Product $product)
+    {
+        // Валидация данных
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'category_id' => 'required|exists:categories,id',
+            'size' => 'nullable|string|max:255',
+            'price' => 'required|numeric|min:0',
+            'images.*' => 'image|mimes:jpeg,png,jpg,gif|max:2048', // Валидация изображений
+        ]);
+
+        // Обновление данных продукта
+        $product->update([
+            'name' => $validated['name'],
+            'category_id' => $validated['category_id'],
+            'size' => $validated['size'],
+            'price' => $validated['price'],
+        ]);
+
+        // Обработка изображений
+        if ($request->hasFile('images')) {
+            foreach ($request->file('images') as $file) {
+                $path = $file->store('products', 'public');
+                $product->images()->create(['image' => $path]);
+            }
+        }
+
+        // Перенаправление с сообщением об успешном обновлении
+        return redirect()->route('products.index')->with('success', 'Продукт успешно обновлён.');
+    }
+    public function destroy($id)
+    {
+        // Проверка, был ли введён правильный пароль
+        if (!session('password_protected')) {
+            return redirect()->route('products.password.form');
+        }
+        $product = Product::findOrFail($id);
+        $product->delete();
+
+        return redirect()->route('products.index')->with('success', 'Товар успешно удалён');
     }
 
     // Сохранение нового товара в базе данных

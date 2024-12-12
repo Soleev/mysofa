@@ -2,10 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="mobile-web-app-capable" content="yes">
     <!-- Favicon and Apple Touch Icon -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="icon" href="/favicon.png">
@@ -30,57 +27,17 @@
 
 </head>
 <body class="ps-loading">
-<header class="header header--3" data-sticky="true">
-    <div class="header__top">
-        <div class="ps-container-fluid">
-            <div class="center"><a class="ps-logo" href="/">
-                    <img src="/assets/images/logo.png" alt=""></a>
-            </div>
-            <div class="right">
-                <div class="menu-toggle"><span></span></div>
-                <ul class="header__actions">
-                    <li><a class="ps-search-btn" href="#"><i class="exist-search"></i></a></li>
-                    <li><a href="#"><i class="exist-user"></i></a></li>
-                    <li class="header__cart"><a class="ps-shopping" href="#" data-toggle="dropdown"
-                                                aria-haspopup="true" aria-expanded="false" id="shopping-cart"><i
-                                class="exist-minicart"></i><span><i>0</i></span></a>
-                        <ul class="dropdown-menu" aria-labelledby="shopping-cart" id="shopping-list">
-                            <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail"
-                                                                           href="product-detail.html"><img
-                                            src="/assets/images/cart/1.jpg"
-                                            alt=""></a><span class="ps-product__content"><a
-                                            class="ps-product__title" href="#">Диван Эндор</a><span
-                                            class="ps-product__quantity">1 x <span>
-                                                        5 000 000</span></span>
-                                            </span><a class="ps-product__remove" href="#"><i
-                                            class="fa fa-trash"></i></a></span>
-                            </li>
-                            <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail"
-                                                                           href="product-detail.html"><img
-                                            src="/assets/images/cart/2.jpg"
-                                            alt=""></a><span class="ps-product__content"><a
-                                            class="ps-product__title" href="#">Диван Lema Cloud</a><span
-                                            class="ps-product__quantity">1 x <span>
-                                                        5 000 000</span></span>
-                                            </span><a class="ps-product__remove" href="#"><i
-                                            class="fa fa-trash"></i></a></span>
-                            </li>
-                            <li class="total">
-                                <p>Всего: <span> 10 млн. сум</span></p><a class="ps-btn" href="#">В корзину</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+<header class="header header--1" data-sticky="true">
     <nav class="navigation">
         <div class="ps-container-fluid">
-            <ul class="menu">
-                <li><a href="/catalog">Каталог</a></li>
-                <li><a href="/about">О нас</a></li>
-                <li><a href="/contacts">Контакты</a></li>
-            </ul>
+            <div class="left"><a class="ps-logo" href="/"><img src="/assets/images/logo.png" alt=""></a></div>
+            <div class="center">
+                <ul class="menu">
+                    <li><a href="/catalog">Каталог</a></li>
+                    <li><a href="/about">О нас</a></li>
+                    <li><a href="/contacts">Контакты</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 </header>

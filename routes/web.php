@@ -17,6 +17,13 @@ Route::get('/products', [ProductController::class, 'index'])->name('products.ind
 
 // Отображение формы для добавления товара
 Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
+
+Route::get('/products/{id}/edit', [ProductController::class, 'edit'])->name('products.edit');
+Route::put('/products/{product}', [ProductController::class, 'update'])->name('products.update');
+
+
+Route::delete('/products/{id}', [ProductController::class, 'destroy'])->name('products.destroy');
+
 // Проверка пароля
 Route::get('/products/password', [PasswordProtectedPageController::class, 'showForm'])->name('products.password.form');
 Route::post('/products/password', [PasswordProtectedPageController::class, 'checkPassword'])->name('products.password.check');
