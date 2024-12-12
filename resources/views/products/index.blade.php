@@ -80,10 +80,6 @@
         }
     </script>
     <div class="clearfix"></div>
-    @php
-        $lastProduct = $products->first();
-    @endphp
-
     @if($lastProduct)
         <div class="product-item">
             <h2>Название: {{ $lastProduct->name }}</h2>
@@ -118,10 +114,13 @@
                     <td>{{ number_format($product->price, 0, '.', ' ') }} сум</td>
                     <td>
                         <a href="{{ route('products.edit', $product->id) }}" class="btn btn-warning btn-sm">Просмотреть/Исправить</a>
-                        <form action="{{ route('products.destroy', $product->id) }}" method="POST" style="display:inline;">
+                        <form action="{{ route('products.destroy', $product->id) }}" method="POST"
+                              style="display:inline;">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Вы уверены?')">Удалить</button>
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Вы уверены?')">
+                                Удалить
+                            </button>
                         </form>
                     </td>
                 </tr>

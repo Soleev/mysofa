@@ -18,10 +18,11 @@ class ProductController extends Controller
         if (!session('password_protected')) {
             return redirect()->route('products.password.form');
         }
-        // Отображение страницы создания продукта, если проверка пройдена
-        $products = Product::with('category')->orderBy('created_at', 'desc')->get();
-        return view('products.index', compact('products'));
+        $products = Product::with('category')->orderBy('updated_at', 'desc')->get();
+        $lastProduct = Product::with('category', 'images')->orderBy('updated_at', 'desc')->first();
 
+        // Возвращение представления с продуктами и последним продуктом
+        return view('products.index', compact('products', 'lastProduct'));
     }
 
 

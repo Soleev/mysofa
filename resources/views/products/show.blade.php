@@ -114,9 +114,9 @@
                             </p>
                         </div>
                         <div class="ps-product__divider"></div>
-                        <p class="ps-product__sharing">Поделиться:<a href="#"><i class="fa fa-facebook"></i></a><a
-                                href="#"><i class="fa fa-twitter"></i></a><a href="#"><i
-                                    class="fa fa-instagram"></i></a></p>
+                        <p class="ps-product__sharing">Поделиться:<a href="#"><i class="fa-brands fa-facebook"></i></a><a
+                                href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i
+                                    class="fa-brands fa-instagram"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -302,7 +302,7 @@
         </div>
     </div>
     -->
-    <div class="ps-subscribe--2 bg--cover" data-background="images/background/subscribe-2.jpg">
+    <div class="ps-subscribe--2 bg--cover">
         <div class="container">
             <form class="ps-form--subscribe-2" action="do_action" method="post">
                 <h3 class="ps-heading">Подпишитесь на рассылку новинок от MySofa!</h3>

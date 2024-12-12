@@ -43,12 +43,12 @@
 
         <div class="form-group">
             <label for="size">Размер</label>
-            <input type="text" class="form-control" id="size" name="size" value="{{ old('size', $product->size) }}">
+            <input type="text" class="form-control" id="size" name="size" required value="{{ old('size', $product->size) }}">
         </div>
 
         <div class="form-group">
             <label for="price">Цена (в сумах)</label>
-            <input type="number" class="form-control" id="price" name="price" value="{{ old('price', $product->price) }}" required>
+            <input type="number" class="form-control" id="price" name="price" required value="{{ old('price', $product->price) }}" required>
         </div>
 
         <div class="form-group">
