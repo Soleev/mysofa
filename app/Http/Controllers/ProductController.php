@@ -12,6 +12,15 @@ use Illuminate\Support\Str;
 
 class ProductController extends Controller
 {
+    public function showAllProducts()
+    {
+        // Получаем все продукты из базы данных
+        $products = Product::with('category')->orderBy('updated_at', 'desc')->get();
+
+        // Возвращаем представление для отображения продуктов
+        return view('products.all', compact('products'));
+    }
+
     public function index()
     {
         // Проверка, был ли введён правильный пароль
@@ -79,6 +88,7 @@ class ProductController extends Controller
         // Перенаправление с сообщением об успешном обновлении
         return redirect()->route('products.index')->with('success', 'Продукт успешно обновлён.');
     }
+
     public function deleteImage($id)
     {
         $image = ProductImage::findOrFail($id); // Найдите изображение по ID

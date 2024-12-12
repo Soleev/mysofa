@@ -15,6 +15,9 @@ Route::get('/catalog', function () {return view('pages.catalog');});
 
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');
 
+Route::get('/products/all', [ProductController::class, 'showAllProducts']);
+
+
 // Отображение формы для добавления товара
 Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
 
