@@ -3,38 +3,41 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Http;
 
-class CallbackController extends Controller
+class ContactController extends Controller
 {
-    public function store(Request $request)
+    public function send(Request $request)
     {
         // Валидация данных
         $request->validate([
+            'name' => 'required|string|max:50',
             'phone' => 'required|string|max:20',
-            'currentUrl' => 'required|url',
+            'subject' => 'required|string|max:255',
+            'message' => 'required|string',
         ]);
 
         // Получение данных
+        $name = $request->input('name');
         $phone = $request->input('phone');
-        $currentUrl = $request->input('currentUrl');
+        $subject = $request->input('subject');
+        $messageText = $request->input('message');
 
-        // Форматирование сообщения
-        $message = "📞 <b>Новый заказ с сайта!</b>\n\n";
+        // Форматирование сообщения для Telegram
+        $message = "📩 <b>Новое сообщение с сайта</b>\n\n";
+        $message .= "<b>Имя:</b> {$name}\n";
         $message .= "<b>Телефон:</b> {$phone}\n";
-        $message .= "Страница: <a href=\"{$currentUrl}\">{$currentUrl}</a>\n";
-        $message .= "Дата: " . now()->format('Y-m-d H:i:s');
+        $message .= "<b>Тема:</b> {$subject}\n";
+        $message .= "<b>Сообщение:</b>\n{$messageText}\n";
 
         // Отправка сообщения в Telegram
         $this->sendMessageToTelegram($message);
 
         // Возврат успешного ответа
-        return redirect()->back()->with('success', 'Ваш запрос успешно отправлен!');
+        return redirect()->back()->with('success', 'Ваше сообщение успешно отправлено!');
     }
 
-
-    public function sendMessageToTelegram($message)
+    protected function sendMessageToTelegram($message)
     {
         $token = env('TELEGRAM_BOT_TOKEN');
         $chatId = env('TELEGRAM_CHAT_ID');
@@ -44,13 +47,11 @@ class CallbackController extends Controller
         $response = Http::post($url, [
             'chat_id' => $chatId,
             'text' => $message,
-            'parse_mode' => 'HTML', // Используйте HTML для форматирования текста
+            'parse_mode' => 'HTML',
         ]);
 
         if ($response->failed()) {
             throw new \Exception('Не удалось отправить сообщение в Telegram.');
         }
     }
-
 }
-

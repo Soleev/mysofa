@@ -5,10 +5,12 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PasswordProtectedPageController;
 use App\Http\Controllers\CallbackController;
+use App\Http\Controllers\ContactController;
 
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/contacts', function () {return view('pages.contacts');});
+Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
 Route::get('/about', function () {return view('pages.about');});
 Route::get('/faqs', function () {return view('pages.faqs');});
 Route::get('/about-me', function () {return view('pages.about-me');});
@@ -34,3 +36,4 @@ Route::get('/catalog/{category_slug}', [ProductController::class, 'showByCategor
 Route::get('/catalog/{category_slug}/{product_slug}', [ProductController::class, 'showProduct'])->name('products.show');
 
 Route::post('/save-callback', [CallbackController::class, 'store'])->name('save.callback');
+
