@@ -92,7 +92,7 @@
     @endif
 
     <div class="container mt-4">
-        <h2>Список всех товаров</h2>
+        <h4>Список всех товаров:</h4>
         <table class="table table-striped">
             <thead>
             <tr>
@@ -107,7 +107,7 @@
             <tbody>
             @foreach($products as $product)
                 <tr>
-                    <td>{{ $product->id }}</td> <!-- Вывод ID вместо номера -->
+                    <td>000{{ $product->id }}</td> <!-- Вывод ID вместо номера -->
                     <td>{{ $product->name }}</td>
                     <td>{{ $product->category->name }}</td>
                     <td>{{ $product->size ?? 'Не указан' }}</td> <!-- Вывод размера -->

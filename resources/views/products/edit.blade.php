@@ -29,26 +29,30 @@
 
         <div class="form-group">
             <label for="name">Название продукта</label>
-            <input type="text" class="form-control" id="name" name="name" value="{{ old('name', $product->name) }}" required>
+            <input type="text" class="form-control" id="name" name="name" value="{{ old('name', $product->name) }}"
+                   required>
         </div>
 
         <div class="form-group">
             <label for="category">Категория</label>
             <select class="form-control" id="category" name="category_id" required>
                 @foreach ($categories as $category)
-                    <option value="{{ $category->id }}" {{ $category->id == $product->category_id ? 'selected' : '' }}>{{ $category->name }}</option>
+                    <option
+                        value="{{ $category->id }}" {{ $category->id == $product->category_id ? 'selected' : '' }}>{{ $category->name }}</option>
                 @endforeach
             </select>
         </div>
 
         <div class="form-group">
             <label for="size">Размер</label>
-            <input type="text" class="form-control" id="size" name="size" required value="{{ old('size', $product->size) }}">
+            <input type="text" class="form-control" id="size" name="size" required
+                   value="{{ old('size', $product->size) }}">
         </div>
 
         <div class="form-group">
             <label for="price">Цена (в сумах)</label>
-            <input type="number" class="form-control" id="price" name="price" required value="{{ old('price', $product->price) }}" required>
+            <input type="number" class="form-control" id="price" name="price" required
+                   value="{{ old('price', $product->price) }}" required>
         </div>
 
         <div class="form-group">
@@ -57,7 +61,14 @@
             <div class="mt-2">
                 <p>Текущие изображения:</p>
                 @foreach ($product->images as $image)
-                    <img src="{{ asset('storage/' . $image->image) }}" alt="{{ $product->name }}" class="img-thumbnail" style="max-width: 150px;">
+                    <div style="display: inline-block; position: relative; margin: 10px;">
+                        <img src="{{ asset('storage/' . $image->image) }}" alt="{{ $product->name }}"
+                             class="img-thumbnail" style="max-width: 150px;">
+                        <!-- Кнопка удаления -->
+                        <button type="button" class="btn btn-danger btn-sm" onclick="deleteImage('{{ $image->id }}')">
+                            Удалить
+                        </button>
+                    </div>
                 @endforeach
             </div>
         </div>
@@ -66,6 +77,32 @@
         <a href="{{ route('products.index') }}" class="btn btn-secondary">Назад</a>
     </form>
 </div>
+<!-- CSRF Token для AJAX-запросов -->
+<meta name="csrf-token" content="{{ csrf_token() }}">
+
+<script>
+    function deleteImage(imageId) {
+        if (confirm('Вы действительно хотите удалить изображение?')) {
+            const csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+
+            fetch(`/products/images/${imageId}`, {
+                method: 'DELETE',
+                headers: {
+                    'X-CSRF-TOKEN': csrfToken,
+                    'Content-Type': 'application/json',
+                }
+            })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload(); // Обновить страницу после успешного удаления
+                    } else {
+                        alert('Не удалось удалить изображение.');
+                    }
+                })
+                .catch(error => console.error('Ошибка:', error));
+        }
+    }
+</script>
 
 <script src="/assets/plugins/jquery/dist/jquery.min.js"></script>
 <script src="/assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>

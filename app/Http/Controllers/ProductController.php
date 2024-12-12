@@ -18,7 +18,7 @@ class ProductController extends Controller
         if (!session('password_protected')) {
             return redirect()->route('products.password.form');
         }
-        $products = Product::with('category')->orderBy('updated_at', 'desc')->get();
+        $products = Product::with('category')->orderBy('created_at', 'desc')->get();
         $lastProduct = Product::with('category', 'images')->orderBy('updated_at', 'desc')->first();
 
         // Возвращение представления с продуктами и последним продуктом
@@ -79,6 +79,16 @@ class ProductController extends Controller
         // Перенаправление с сообщением об успешном обновлении
         return redirect()->route('products.index')->with('success', 'Продукт успешно обновлён.');
     }
+    public function deleteImage($id)
+    {
+        $image = ProductImage::findOrFail($id); // Найдите изображение по ID
+        Storage::disk('public')->delete($image->image); // Удалите файл из хранилища
+
+        $image->delete(); // Удалите запись из базы данных
+
+        return response()->json(['message' => 'Изображение успешно удалено']);
+    }
+
     public function destroy($id)
     {
         // Проверка, был ли введён правильный пароль

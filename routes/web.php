@@ -19,6 +19,7 @@ Route::get('/products', [ProductController::class, 'index'])->name('products.ind
 Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
 
 Route::get('/products/{id}/edit', [ProductController::class, 'edit'])->name('products.edit');
+Route::delete('/products/images/{id}', [ProductController::class, 'deleteImage']);
 Route::put('/products/{product}', [ProductController::class, 'update'])->name('products.update');
 
 

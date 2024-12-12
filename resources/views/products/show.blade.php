@@ -108,7 +108,7 @@
                                 <li><a href="#"><i class="exist-heart"></i>В избранное</a></li>
                                 <li><a href="#"><i class="exist-compare"></i>Сравнить</a></li>
                             </ul>
-                            <p><strong>SKU:</strong>N/A</p>
+                            <p><strong>SKU:</strong>000{{ $product->id }}</p>
                             <p><strong>Категория:</strong><a
                                     href="/catalog/{{ $product->category->slug }}">{{ $product->category->name }}</a>,
                             </p>
