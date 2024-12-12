@@ -6356,10 +6356,10 @@ textarea.form-control {
     font-style: italic; }
 
 .ps-home-1--collection {
-    padding: 100px 0; }
+    padding: 0px 0; }
 @media (max-width: 767px) {
     .ps-home-1--collection {
-        padding: 50px 0; } }
+        padding: 0px 0; } }
 
 .ps-section--collection-home-2 {
     padding: 100px 0; }

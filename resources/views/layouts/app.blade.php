@@ -30,8 +30,7 @@
     <link rel="stylesheet" href="/assets/plugins/revolution/css/settings.css">
     <link rel="stylesheet" href="/assets/plugins/revolution/css/layers.css">
     <link rel="stylesheet" href="/assets/plugins/revolution/css/navigation.css">
-    <link rel="stylesheet" href="/assets/css/sliders/slider-1.css">
-    <link rel="stylesheet" href="/assets/css/sliders/slider-3.css">
+    <link rel="stylesheet" href="/assets/css/sliders/slider-2.css">
     <!-- Custom Styles -->
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
     <!-- Google Tag (gtag.js) -->
@@ -169,8 +168,7 @@
         src="/assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 <script type="text/javascript"
         src="/assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="/assets/js/slider_3.js"></script>
-<script src="/assets/js/slider_1.js"></script>
 
+<script src="/assets/js/slider_2.js"></script>
 </body>
 </html>

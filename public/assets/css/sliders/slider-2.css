@@ -28,7 +28,7 @@
 }
 
 #rev_slider_4_1 .custom-nav.tp-leftarrow:after {
-    content: 'Back';
+    /*content: 'Back';*/
     font-size: 12px;
     font-weight: 600;
     line-height: 20px;
@@ -47,7 +47,7 @@
 }
 
 #rev_slider_4_1 .custom-nav.tp-rightarrow:after {
-    content: 'Next';
+    /*content: 'Next';*/
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 2px;

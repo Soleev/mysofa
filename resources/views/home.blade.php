@@ -13,211 +13,41 @@
             </form>
         </div>
     </div>
-    <div id="rev_slider_3_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="home-1"
-         data-source="gallery" style="background:transparent;padding:0px;">
-        <!-- START REVOLUTION SLIDER 5.4.6.3.1 fullscreen mode -->
-        <div id="rev_slider_3_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.6.3.1">
+    <!-- END REVOLUTION SLIDER -->
+    <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="home-2" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+        <!-- START REVOLUTION SLIDER 5.4.6.3.1 auto mode -->
+        <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.6.3.1">
             <ul>
                 <!-- SLIDE  -->
-                <li data-index="rs-7" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
-                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/030.jpg"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
+                <li data-index="rs-14" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default" data-masterspeed="default" data-thumb="/assets/images/home-slider/home-2/home-2-1-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="/assets/images/home-slider/home-1/030.jpg" alt="" title="slider-1" width="1920" height="980"
-                         data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                         class="rev-slidebg" data-no-retina>
+                    <img src="/assets/images/home-slider/home-2/121201.jpg" alt="" title="home-2-1" width="1920" height="720" data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
                     <!-- LAYER NR. 1 -->
-                    <div class="tp-caption rev-btn " id="slide-7-layer-1" data-x="['left','left','left','left']"
-                         data-hoffset="['0','0','30','12']" data-y="['top','top','top','top']"
-                         data-voffset="['525','467','462','357']" data-width="none" data-height="none"
-                         data-whitespace="nowrap" data-type="button"  data-responsive_offset="on" data-responsive="off"
-                         data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bs:solid;bw:0 0 0 0;"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
-                         data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
-                         data-paddingleft="[45,45,45,45]"
-                         style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                        Посмотреть
-                    </div>
+                    <a href="/catalog/sofas/lourens"> <div class="tp-caption rev-btn " id="slide-14-layer-1" data-href="/catalog/sofas/lourens" data-x="['center','center','center','center']" data-hoffset="['5','0','1','0']" data-y="['top','middle','middle','middle']" data-voffset="['511','53','34','39']" data-fontweight="['700','300','700','700']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bc:rgb(202,32,40);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]" data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[45,45,45,45]" style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #867462; letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(134,116,98);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Купить </div></a>
                     <!-- LAYER NR. 2 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-7-layer-2" data-x="['left','left','left','left']"
-                         data-hoffset="['0','0','30','11']" data-y="['middle','middle','middle','middle']"
-                         data-voffset="['0','0','-103','-86']" data-fontsize="['60','60','50','40']" data-width="none"
-                         data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                         data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                         style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Диван Circle
-                    </div>
+                    <div class="tp-caption   tp-resizeme" id="slide-14-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','1']" data-y="['middle','middle','middle','middle']" data-voffset="['0','-70','-65','-60']" data-fontsize="['140','100','60','60']" data-lineheight="['140','100','60','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 140px; line-height: 140px; font-weight: 800; color: #867462; letter-spacing: 0px;font-family:Nunito Sans;">Лоуренс </div>
                     <!-- LAYER NR. 3 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-7-layer-3" data-x="['left','left','left','left']"
-                         data-hoffset="['3','-1','30','14']" data-y="['top','top','top','top']"
-                         data-voffset="['477','426','429','318']" data-width="none" data-height="none"
-                         data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                         data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                         style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Размер дивана 3,6×1,8×1,8
-                    </div>
+                    <div class="tp-caption   tp-resizeme" id="slide-14-layer-3" data-x="['center','center','center','center']" data-hoffset="['7','0','2','0']" data-y="['middle','middle','middle','middle']" data-voffset="['108','0','-12','-9']" data-fontsize="['50','35','25','18']" data-lineheight="['50','35','25','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 800; color: #867462; letter-spacing: 0px;font-family:Nunito Sans;">Диван для большого зала </div>
                 </li>
                 <!-- SLIDE  -->
-                <li data-index="rs-10" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
-                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/031.jpg"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
+                <li data-index="rs-17" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default" data-masterspeed="default" data-thumb="/assets/images/home-slider/home-2/home-2-3-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="/assets/images/home-slider/home-1/031.jpg" alt="" title="home-1-2" width="1920" height="980"
-                         data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                         class="rev-slidebg" data-no-retina>
+                    <img src="/assets/images/home-slider/home-2/121202.jpg" alt="" title="home-2-3" width="1920" height="720" data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
                     <!-- LAYER NR. 4 -->
-                    <div class="tp-caption rev-btn " id="slide-10-layer-1"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','-1','0']"
-                         data-y="['top','top','top','middle']" data-voffset="['525','525','512','50']" data-width="none"
-                         data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
-                         data-responsive="off"
-                         data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bs:solid;bw:0 0 0 0;"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
-                         data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
-                         data-paddingleft="[45,45,45,45]"
-                         style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                        Посмотреть
-                    </div>
+                    <a href="/catalog/sofas/rotondo"> <div class="tp-caption rev-btn " id="slide-17-layer-1" data-href="https://example.com" data-x="['center','center','center','center']" data-hoffset="['2','0','1','0']" data-y="['top','middle','middle','middle']" data-voffset="['501','53','34','39']" data-fontweight="['700','300','700','700']" data-color="['rgb(117,117,110)','rgb(134,116,98)','rgb(134,116,98)','rgb(134,116,98)']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bc:rgb(202,32,40);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]" data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[45,45,45,45]" style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 700; color: #75756e; letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0);border-color:rgb(117,117,110);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Купить </div></a>
                     <!-- LAYER NR. 5 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-10-layer-2"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-48','-48']"
-                         data-fontsize="['60','60','40','40']" data-width="none" data-height="none"
-                         data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                         data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                         style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Диван Lema
-                    </div>
+                    <div class="tp-caption   tp-resizeme" id="slide-17-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','1']" data-y="['middle','middle','middle','middle']" data-voffset="['0','-70','-65','-60']" data-fontsize="['140','100','60','60']" data-lineheight="['140','100','60','60']" data-color="['rgb(117,117,110)','rgb(134,116,98)','rgb(134,116,98)','rgb(134,116,98)']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 140px; line-height: 140px; font-weight: 800; color: #75756e; letter-spacing: 0px;font-family:Nunito Sans;">Ротондо </div>
                     <!-- LAYER NR. 6 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-10-layer-3"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','-1','-1']"
-                         data-y="['top','top','top','middle']" data-voffset="['477','477','469','0']"
-                         data-fontsize="['15','15','14','14']" data-width="none" data-height="none"
-                         data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                         data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                         style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Произведение искусства
-                    </div>
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-12" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="Power0.easeInOut" data-easeout="default"
-                    data-masterspeed="default" data-thumb="/assets/images/home-slider/home-1/032.jpg"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="/assets/images/home-slider/home-1/032.jpg" alt="" title="home-1-3" width="1920" height="980"
-                         data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                         class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                    <!-- LAYER NR. 7 -->
-                    <div class="tp-caption rev-btn " id="slide-12-layer-1"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','-1','0']"
-                         data-y="['top','top','top','top']" data-voffset="['525','525','500','380']" data-width="none"
-                         data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
-                         data-responsive="off"
-                         data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(202,32,40);bs:solid;bw:0 0 0 0;"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[14,14,14,14]"
-                         data-paddingright="[45,45,45,45]" data-paddingbottom="[12,12,12,12]"
-                         data-paddingleft="[45,45,45,45]"
-                         style="z-index: 5; white-space: nowrap; font-size: 11px; line-height: 20px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Nunito Sans;text-transform:uppercase;background-color:rgba(0,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                        Посмотреть
-                    </div>
-                    <!-- LAYER NR. 8 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-12-layer-2"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-66','-55']"
-                         data-fontsize="['60','60','40','40']" data-width="none" data-height="none"
-                         data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                         data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                         style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 200; color: #000000; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Диван Bravos
-                    </div>
-                    <!-- LAYER NR. 9 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-12-layer-3"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','-2','-2']"
-                         data-y="['top','top','top','middle']" data-voffset="['477','477','455','-8']" data-width="none"
-                         data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                         data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                         style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 20px; font-weight: 600; color: #111111; letter-spacing: 0px;font-family:Nunito Sans;">
-                        Размер 3,5*2,5
-                    </div>
+                    <div class="tp-caption   tp-resizeme" id="slide-17-layer-3" data-x="['center','center','center','center']" data-hoffset="['7','0','2','0']" data-y="['middle','middle','middle','middle']" data-voffset="['98','0','-12','-9']" data-fontsize="['50','35','25','18']" data-lineheight="['50','35','25','20']" data-color="['rgb(117,117,110)','rgb(134,116,98)','rgb(134,116,98)','rgb(134,116,98)']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 800; color: #75756e; letter-spacing: 0px;font-family:Nunito Sans;">Подчеркнёт красоту комнаты </div>
                 </li>
             </ul>
             <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
         </div>
     </div>
     <!-- END REVOLUTION SLIDER -->
-
-    <!--
-    <div class="ps-home-3--collection">
-        <div class="ps-container-fluid">
-            <div class="masonry-wrapper" data-col-md="4" data-col-sm="2" data-col-xs="1" data-gap="0" data-radio="4:3">
-                <div class="ps-masonry">
-                    <div class="grid-sizer"></div>
-                    <div class="grid-item high">
-                        <div class="grid-item__content-wrapper">
-                            <div class="ps-collection--5 bottom"><img
-                                    src="assets/images/collection/home-3/collection-1.jpg" alt="">
-                                <div class="ps-collection__content">
-                                    <h4>Refresh <br> Collection</h4>
-                                    <p>Lorem ipsum dolor sit amet.</p><a class="ps-btn--underline" href="#">Купить</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid-item large">
-                        <div class="grid-item__content-wrapper">
-                            <div class="ps-collection--5"><a href="#"><img
-                                        src="assets/images/collection/home-3/collection-2.jpg" alt=""></a></div>
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div class="grid-item__content-wrapper">
-                            <div class="ps-collection--5 left"><img
-                                    src="assets/images/collection/home-3/collection-3.jpg" alt="">
-                                <div class="ps-collection__content">
-                                    <h4>Essential <br> Weekend</h4><a class="ps-btn--underline" href="#">Купить</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div class="grid-item__content-wrapper">
-                            <div class="ps-collection--5 right"><img
-                                    src="assets/images/collection/home-3/collection-4.jpg" alt="">
-                                <div class="ps-collection__content">
-                                    <h4>Formal <br> White </h4><a class="ps-btn--underline" href="#">Купить</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
+    
     <div class="ps-home-1--collection">
         <div class="ps-container-fluid">
             <div class="masonry-wrapper" data-col-md="4" data-col-sm="2" data-col-xs="1" data-gap="30" data-radio="4:3">
