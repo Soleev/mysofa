@@ -23,6 +23,11 @@
             </div>
         </div>
     </div>
+    @if(session('success'))
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ session('success') }}
+        </div>
+    @endif
     <div class="ps-product--detail">
         <div class="ps-container-fluid">
             <div class="row">
@@ -102,8 +107,37 @@
                                 <input class="form-control" type="text" value="1"><span class="down">-</span><span
                                     class="up">+</span>
                             </div>
-                            <button class="ps-btn ps-btn--black"><i class="exist-minicart mr-5"></i> В корзину
+                            <!-- Button trigger modal -->
+                            <button type="button" class="ps-btn ps-btn--black" data-toggle="modal"
+                                    data-target="#callbackModal">
+                                <i class="exist-minicart mr-5"></i>Заказать
                             </button>
+                            <!-- Модальное окно -->
+                            <div class="modal fade" id="callbackModal" tabindex="-1"
+                                 aria-labelledby="callbackModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="callbackModalLabel">Оставьте ваш номер
+                                                телефона</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Закрыть"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form id="callbackForm" method="POST" action="{{ route('save.callback') }}">
+                                                @csrf <!-- Защита от CSRF -->
+                                                <div class="mb-3">
+                                                    <label for="phone" class="form-label">Номер телефона</label>
+                                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="+998 90 1234567" required>
+                                                </div>
+                                                <!-- Скрытое поле для текущего URL -->
+                                                <input type="hidden" id="currentUrl" name="currentUrl">
+                                                <button type="submit" class="btn btn-primary">Отправить</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <ul class="ps-product__cart-action">
                                 <li><a href="#"><i class="exist-heart"></i>В избранное</a></li>
                                 <li><a href="#"><i class="exist-compare"></i>Сравнить</a></li>
@@ -114,9 +148,10 @@
                             </p>
                         </div>
                         <div class="ps-product__divider"></div>
-                        <p class="ps-product__sharing">Поделиться:<a href="#"><i class="fa-brands fa-facebook"></i></a><a
-                                href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i
-                                    class="fa-brands fa-instagram"></i></a></p>
+                        <p class="ps-product__sharing">Поделиться:
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -157,151 +192,7 @@
             </div>
         </div>
     </div>
-    <!--
-    <div class="ps-section--relate-products">
-        <div class="ps-container-fluid">
-            <div class="ps-section__header text-center mb-80">
-                <h3 class="ps-heading">Related Products</h3>
-            </div>
-            <div class="ps-slider--related-products owl-slider" data-owl-auto="true" data-owl-loop="true"
-                 data-owl-speed="5000" data-owl-gap="20" data-owl-nav="true" data-owl-dots="false" data-owl-item="6"
-                 data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1"
-                 data-owl-duration="1000" data-owl-mousedrag="on"
-                 data-owl-nav-left="&lt;i class='exist-leftarrow'&gt;&lt;/i&gt;"
-                 data-owl-nav-right="&lt;i class='exist-rightarrow'&gt;&lt;/i&gt;">
-                <div class="ps-product--1" data-mh="product-item">
-                    <div class="ps-product__thumbnail">
-                        <div class="ps-badge ps-badge--hot"><span>hot</span></div>
-                        <div class="ps-badge ps-badge--sale-off ps-badge--2nd"><span>-25%</span></div>
-                        <img src="/assets/images/product/home-1/1.jpg" alt=""><a class="ps-btn ps-product__shopping"
-                                                                                 href="#"><i class="exist-minicart"></i>Add
-                            to cart</a>
-                        <ul class="ps-product__actions">
-                            <li><a href="#" data-label="Favorite"><i class="exist-heart"></i></a></li>
-                            <li><a href="#" data-label="Compare"><i class="exist-compare"></i></a></li>
-                            <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i
-                                        class="exist-quickview"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> T-shirt
-                            with slogan</a><span class="ps-product__price">$5250.00</span>
-                    </div>
-                </div>
-                <div class="ps-product--1" data-mh="product-item">
-                    <div class="ps-product__thumbnail"><img src="/assets/images/product/home-1/2.jpg" alt=""><a
-                            class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Add to cart</a>
-                        <ul class="ps-product__actions">
-                            <li><a href="#" data-label="Favorite"><i class="exist-heart"></i></a></li>
-                            <li><a href="#" data-label="Compare"><i class="exist-compare"></i></a></li>
-                            <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i
-                                        class="exist-quickview"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> White
-                            crossbody bag</a><span class="ps-product__price">$1250.00</span>
-                    </div>
-                </div>
-                <div class="ps-product--1" data-mh="product-item">
-                    <div class="ps-product__thumbnail">
-                        <div class="ps-badge ps-badge--new"><span>New</span></div>
-                        <img src="/assets/images/product/home-1/3.jpg" alt=""><a class="ps-btn ps-product__shopping"
-                                                                                 href="#"><i class="exist-minicart"></i>Add
-                            to cart</a>
-                        <ul class="ps-product__actions">
-                            <li><a href="#" data-label="Favorite"><i class="exist-heart"></i></a></li>
-                            <li><a href="#" data-label="Compare"><i class="exist-compare"></i></a></li>
-                            <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i
-                                        class="exist-quickview"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> Velvet
-                            backpack</a><span class="ps-product__price">$5250.00</span>
-                    </div>
-                </div>
-                <div class="ps-product--1" data-mh="product-item">
-                    <div class="ps-product__thumbnail">
-                        <div class="ps-badge ps-badge--new"><span>New</span></div>
-                        <div class="ps-badge ps-badge--sale-off ps-badge--2nd"><span>-25%</span></div>
-                        <img src="/assets/images/product/home-1/4.jpg" alt=""><a class="ps-btn ps-product__shopping"
-                                                                                 href="#"><i class="exist-minicart"></i>Add
-                            to cart</a>
-                        <ul class="ps-product__actions">
-                            <li><a href="#" data-label="Favorite"><i class="exist-heart"></i></a></li>
-                            <li><a href="#" data-label="Compare"><i class="exist-compare"></i></a></li>
-                            <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i
-                                        class="exist-quickview"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> Square
-                            cream sunglasses</a><span class="ps-product__price">$5250.00
-                    <del>$725.00</del></span>
-                    </div>
-                </div>
-                <div class="ps-product--1" data-mh="product-item">
-                    <div class="ps-product__thumbnail"><img src="/assets/images/product/home-1/5.jpg" alt=""><a
-                            class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Add to cart</a>
-                        <ul class="ps-product__actions">
-                            <li><a href="#" data-label="Favorite"><i class="exist-heart"></i></a></li>
-                            <li><a href="#" data-label="Compare"><i class="exist-compare"></i></a></li>
-                            <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i
-                                        class="exist-quickview"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> Shirt
-                            Regular fit</a><span class="ps-product__price">$95.00
-                    <del>$725.00</del></span>
-                    </div>
-                </div>
-                <div class="ps-product--1" data-mh="product-item">
-                    <div class="ps-product__thumbnail"><img src="/assets/images/product/home-1/6.jpg" alt=""><a
-                            class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Add to cart</a>
-                        <ul class="ps-product__actions">
-                            <li><a href="#" data-label="Favorite"><i class="exist-heart"></i></a></li>
-                            <li><a href="#" data-label="Compare"><i class="exist-compare"></i></a></li>
-                            <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i
-                                        class="exist-quickview"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> T-shirt
-                            with slogan</a><span class="ps-product__price">$1250.00
-                    <del>$725.00</del></span>
-                    </div>
-                </div>
-                <div class="ps-product--1" data-mh="product-item">
-                    <div class="ps-product__thumbnail"><img src="/assets/images/product/home-1/7.jpg" alt=""><a
-                            class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Add to cart</a>
-                        <ul class="ps-product__actions">
-                            <li><a href="#" data-label="Favorite"><i class="exist-heart"></i></a></li>
-                            <li><a href="#" data-label="Compare"><i class="exist-compare"></i></a></li>
-                            <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i
-                                        class="exist-quickview"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> Leather
-                            brown belt</a><span class="ps-product__price">$350.00</span>
-                    </div>
-                </div>
-                <div class="ps-product--1" data-mh="product-item">
-                    <div class="ps-product__thumbnail">
-                        <div class="ps-badge ps-badge--new"><span>New</span></div>
-                        <img src="/assets/images/product/home-1/8.jpg" alt=""><a class="ps-btn ps-product__shopping"
-                                                                                 href="#"><i class="exist-minicart"></i>Add
-                            to cart</a>
-                        <ul class="ps-product__actions">
-                            <li><a href="#" data-label="Favorite"><i class="exist-heart"></i></a></li>
-                            <li><a href="#" data-label="Compare"><i class="exist-compare"></i></a></li>
-                            <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i
-                                        class="exist-quickview"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> Denim
-                            shorts</a><span class="ps-product__price">$5250.00</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
+
     <div class="ps-subscribe--2 bg--cover">
         <div class="container">
             <form class="ps-form--subscribe-2" action="do_action" method="post">
@@ -320,5 +211,8 @@
             </form>
         </div>
     </div>
-
+    <script>
+        // Записываем текущий URL в скрытое поле
+        document.getElementById('currentUrl').value = window.location.href;
+    </script>
 @endsection
