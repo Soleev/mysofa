@@ -34,23 +34,24 @@ class CallbackController extends Controller
     }
 
 
-    public function sendMessageToTelegram($message)
+    protected function sendMessageToTelegram($message, $chatId = null)
     {
         $token = env('TELEGRAM_BOT_TOKEN');
-        $chatId = env('TELEGRAM_CHAT_ID');
+        $chatId = $chatId ?? env('TELEGRAM_GROUP_CHAT_ID'); // Использовать ID группы по умолчанию
 
         $url = "https://api.telegram.org/bot{$token}/sendMessage";
 
         $response = Http::post($url, [
             'chat_id' => $chatId,
             'text' => $message,
-            'parse_mode' => 'HTML', // Используйте HTML для форматирования текста
+            'parse_mode' => 'HTML',
         ]);
 
         if ($response->failed()) {
             throw new \Exception('Не удалось отправить сообщение в Telegram.');
         }
     }
+
 
 }
 

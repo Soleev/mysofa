@@ -37,10 +37,10 @@ class ContactController extends Controller
         return redirect()->back()->with('success', 'Ваше сообщение успешно отправлено!');
     }
 
-    protected function sendMessageToTelegram($message)
+    protected function sendMessageToTelegram($message, $chatId = null)
     {
         $token = env('TELEGRAM_BOT_TOKEN');
-        $chatId = env('TELEGRAM_CHAT_ID');
+        $chatId = $chatId ?? env('TELEGRAM_GROUP_CHAT_ID'); // Использовать ID группы по умолчанию
 
         $url = "https://api.telegram.org/bot{$token}/sendMessage";
 
@@ -54,4 +54,5 @@ class ContactController extends Controller
             throw new \Exception('Не удалось отправить сообщение в Telegram.');
         }
     }
+
 }
