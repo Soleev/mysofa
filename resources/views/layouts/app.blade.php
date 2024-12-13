@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="MxK/5aHLhSrFvr7oVGGkLg" defer="true"></script>
+    <!-- Google Tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1T5J1FJNS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-Z1T5J1FJNS');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -33,19 +47,7 @@
     <link rel="stylesheet" href="/assets/css/sliders/slider-2.css">
     <!-- Custom Styles -->
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
-    <!-- Google Tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1T5J1FJNS"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'G-Z1T5J1FJNS');
-    </script>
 </head>
 <body class="ps-loading">
 <header class="header header--1" data-sticky="true">
