@@ -327,18 +327,31 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
                             <div class="ps-product--1" data-mh="product-item">
-                                <div class="ps-product__thumbnail"><img src="assets/images/product/home-2/product-2.jpg"
-                                                                        alt=""><a class="ps-btn ps-product__shopping" href="#"><i
-                                            class="exist-minicart"></i>Купить</a>
+                                <div class="ps-product__thumbnail">
+                                    <img src="assets/images/product/home-2/product-2.jpg" alt="">
+                                    <a class="ps-btn ps-product__shopping" href="#">
+                                        <i class="exist-minicart"></i>Купить </a>
                                     <ul class="ps-product__actions">
-                                        <li><a href="#" data-label="В избранное"><i class="exist-heart"></i></a></li>
-                                        <li><a href="#" data-label="Сравнить"><i class="exist-compare"></i></a></li>
-                                        <li><a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть"><i
-                                                    class="exist-quickview"></i></a></li>
+                                        <li>
+                                            <a href="#" data-label="В избранное">
+                                                <i class="exist-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-label="Сравнить">
+                                                <i class="exist-compare"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="ps-modal-trigger" href="#quick-view" data-label="Посмотреть">
+                                                <i class="exist-quickview"></i>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
-                                <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html">
-                                        Square </a><span class="ps-product__price">$1250.00</span>
+                                <div class="ps-product__content">
+                                    <a class="ps-product__title" href="product-detail-1.html"> Square </a>
+                                    <span class="ps-product__price">$1250.00</span>
                                 </div>
                             </div>
                         </div>
