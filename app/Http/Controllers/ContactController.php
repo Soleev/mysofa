@@ -49,6 +49,8 @@ class ContactController extends Controller
             'text' => $message,
             'parse_mode' => 'HTML',
         ]);
+        // Логирование ответа от Telegram
+        \Log::info('Telegram API response', ['response' => $response->body()]);
 
         if ($response->failed()) {
             throw new \Exception('Не удалось отправить сообщение в Telegram.');
