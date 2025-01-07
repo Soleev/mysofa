@@ -109,7 +109,7 @@
                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                     style="z-index: 6; white-space: nowrap; font-size: 140px; line-height: 140px; color: #75756e; letter-spacing: 0px;">
-                    скидка на Букле 30% </div>
+                    Букле -30% </div>
                 <!-- LAYER NR. 6
                 <div class="tp-caption   tp-resizeme" id="slide-17-layer-3"
                     data-x="['center','center','center','center']" data-hoffset="['7','0','2','0']"
