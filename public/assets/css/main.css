@@ -2,9 +2,8 @@
     Project: MySofa
     Version: 1.2
     Date Created: 01/07/2024
-    Date Updated: 01/08/2024
-    Developed by: Shoxrux Soleyev
-    https://themeforest.net/item/exist-wonderful-fashion-html-template/21244711?srsltid=AfmBOopjRVXNixaPBn-SOx-TNntdgjguZZ7uIlrw-oKzeGXDiQv-uE4Z
+    Date Updated: 01/01/2025
+    Developed by: Shoxrux Soleyev    
 */
 /*
     TABLE OF CONTENT
@@ -906,7 +905,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     margin-top: 0;
     margin-bottom: 10px;
-    font-weight: 700;
+    font-weight: 400;
     color: #000; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit; }
@@ -3288,7 +3287,6 @@ textarea.form-control {
     color: #000; }
 .ps-product--1 .ps-product__price {
     font-size: 13px;
-    font-weight: 700;
     letter-spacing: 1.2px;
     text-align: center;
     color: #111111; }
@@ -4058,7 +4056,6 @@ textarea.form-control {
     z-index: 10;
     padding: 15px 35px 13px;
     font-size: 11px;
-    font-weight: 700;
     text-transform: uppercase;
     line-height: 20px;
     background-color: #fff;
@@ -6772,7 +6769,6 @@ textarea.form-control {
     display: inline-block;
     padding: 10px 0;
     font-size: 12px;
-    font-weight: 700;
     color: #111;
     letter-spacing: .15em;
     line-height: 20px;
@@ -7990,7 +7986,6 @@ textarea.form-control {
     display: inline-block;
     padding: 10px 0;
     font-size: 12px;
-    font-weight: 700;
     letter-spacing: .15em;
     text-align: left;
     color: #111111;
