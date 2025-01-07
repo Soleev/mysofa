@@ -4,11 +4,11 @@
 @section('content')
 <div class="ps-hero bg--cover" data-background="assets/images/hero/hero-faq.jpg">
         <div class="container">
-            <h2 class="ps-hero__heading">FAQs</h2>
+            <h1 class="ps-hero__heading">Часто задаваемые вопросы</h1>
             <div class="ps-breadcrumb">
                 <ol class="breadcrumb">
-                    <li><a href="/">Главная</a></li>
-                    <li class="active">Вопросы-ответы</li>
+                    <li><a href="/">Главная </a></li>
+                    <li class="active">faq's</li>
                 </ol>
             </div>
         </div>
