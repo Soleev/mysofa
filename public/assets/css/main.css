@@ -6101,6 +6101,11 @@ textarea.form-control {
 .ps-collection--big .ps-collection__content.center {
     left: 50%;
 }
+@media (max-width: 991px) {
+    .ps-collection--big .ps-collection__content.center {
+        left: 40%;
+    }
+}
 
 .ps-collection--big .ps-collection__content.left {
     left: 7%;
